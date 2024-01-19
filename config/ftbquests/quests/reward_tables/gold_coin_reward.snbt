@@ -1,0 +1,70 @@
+{
+	id: "5D7127D0072C76C4"
+	loot_size: 1
+	order_index: 16
+	rewards: [
+		{ item: "aquaculture:treasure_chest" }
+		{ count: 3, item: "kubejs:iron_coin" }
+		{ count: 32, item: "minecraft:gold_ore", random_bonus: 32 }
+		{ count: 32, item: "minecraft:lapis_ore", random_bonus: 32 }
+		{ item: "quark:blue_blossom_sapling" }
+		{ item: "quark:lavender_blossom_sapling" }
+		{ item: "quark:orange_blossom_sapling" }
+		{ item: "quark:pink_blossom_sapling" }
+		{ item: "quark:yellow_blossom_sapling" }
+		{ item: "quark:red_blossom_sapling" }
+		{ item: "quark:stoneling_spawn_egg" }
+		{ item: "minecraft:horse_spawn_egg" }
+		{ item: "minecraft:ocelot_spawn_egg" }
+		{ count: 8, item: "minecraft:ender_pearl" }
+		{ count: 5, item: "randomite:randomite_ore" }
+		{ count: 32, item: "minecraft:golden_carrot" }
+		{ count: 32, item: "minecraft:glistering_melon_slice" }
+		{ count: 8, item: "kubejs:diamond_nugget" }
+		{ count: 8, item: "kubejs:emerald_nugget" }
+		{ item: "simplehats:hatbag_rare" }
+		{ count: 32, item: "minecraft:firework_rocket" }
+		{
+			item: {
+				Count: 1b
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "vanilla_food_3"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "materials_3"
+				}
+			}
+		}
+		{ item: "waystones:waystone" }
+		{ item: "waystones:mossy_waystone" }
+		{ item: "waystones:sandy_waystone" }
+		{ item: "waystones:warp_plate" }
+		{
+			item: {
+				Count: 1b
+				id: "gag:energized_hearthstone"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "gag:sacred_salve" }
+		{
+			item: {
+				Count: 1b
+				id: "gag:escape_rope"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "金币奖励"
+}

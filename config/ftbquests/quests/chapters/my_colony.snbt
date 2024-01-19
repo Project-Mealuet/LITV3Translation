@@ -1,0 +1,2025 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "my_colony"
+	group: ""
+	icon: "minecolonies:supplycampdeployer"
+	id: "5A62415E6BEF0970"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 15.0d
+		hover: [ ]
+		image: "litv3:textures/misc/village.png"
+		rotation: 0.0d
+		width: 20.0d
+		x: 10.0d
+		y: -2.0d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["00000000000000F0"]
+			description: [
+				"{litv3.my_colony.description0}"
+				""
+				"{litv3.my_colony.description1}"
+				""
+				"{litv3.my_colony.description2}"
+				"{litv3.my_colony.description3}"
+			]
+			id: "00000000000000CC"
+			rewards: [
+				{
+					count: 16
+					id: "0000000000000372"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "48219DA268AA8DBD"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+				{
+					id: "06A561C897B5968A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "4E354A738A8DA865"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecolonies:supplycampdeployer"
+							}
+							{
+								Count: 1b
+								id: "minecolonies:supplychestdeployer"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "{litv3.my_colony.title0}"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00000000000000CC"]
+			dependency_requirement: "one_completed"
+			description: [
+				"{litv3.my_colony.description4}"
+				"{litv3.my_colony.description5}"
+				""
+				"{litv3.my_colony.description6}"
+			]
+			id: "00000000000000D7"
+			rewards: [
+				{
+					count: 64
+					id: "000000000000020D"
+					item: "minecraft:stone"
+					type: "item"
+				}
+				{
+					id: "7B8C3DC9E61110BB"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "27BC77CA6301BA2C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "00000000000000D8"
+					item: "minecolonies:blockhuttownhall"
+					type: "item"
+				}
+				{
+					id: "00000000000000D9"
+					item: "structurize:sceptergold"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00000000000000D7"]
+			description: ["{litv3.my_colony.description7}"]
+			id: "00000000000000DA"
+			rewards: [
+				{
+					id: "0000000000000207"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "000000000000020C"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+				{
+					id: "24517E04DADF3C12"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "00000000000000DB"
+				item: "minecolonies:blockhutbuilder"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00000000000000DA"]
+			description: ["{litv3.my_colony.description8}"]
+			id: "00000000000000DC"
+			rewards: [
+				{
+					id: "73116AA9599287C3"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:swiftness"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0000000000000373"
+					item: "minecraft:red_bed"
+					type: "item"
+				}
+				{
+					id: "4AC1F8F676135FA2"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "468480CDB9FCB2DA"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "00000000000000DD"
+				item: "minecolonies:blockhuttavern"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00000000000000DC"]
+			description: [
+				"{litv3.my_colony.description9}"
+				"{litv3.my_colony.description10}"
+			]
+			id: "00000000000000DE"
+			rewards: [
+				{
+					id: "0000000000000201"
+					item: {
+						Count: 1b
+						id: "minecraft:fishing_rod"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B4699496C63CD21"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "51F6485D62BD0720"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "7E7F55420D1B53D7"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "00000000000000DF"
+				item: "minecolonies:blockhutfisherman"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["000000000000010B"]
+			description: [
+				"{litv3.my_colony.description11}"
+				"{litv3.my_colony.description12}"
+				""
+				"{litv3.my_colony.description13}"
+				""
+				"{litv3.my_colony.description14}"
+				"{litv3.my_colony.description15}"
+				""
+				"{litv3.my_colony.description16}"
+				"{litv3.my_colony.description17}"
+				"{litv3.my_colony.description18}"
+			]
+			id: "00000000000000E0"
+			rewards: [
+				{
+					id: "00000000000001F4"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "0000000000000200"
+					item: {
+						Count: 1b
+						id: "minecraft:stone_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "00000000000002EB"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "00000000000002EF"
+					item: "minecolonies:compost"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "00000000000000E1"
+					item: "minecolonies:blockhutfarmer"
+					type: "item"
+				}
+				{
+					id: "00000000000000FC"
+					item: "minecolonies:blockhutfield"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["00000000000000E0"]
+			id: "00000000000000E2"
+			rewards: [
+				{
+					count: 8
+					id: "0000000000000281"
+					item: "minecraft:paper"
+					type: "item"
+				}
+				{
+					id: "5F64C9968558FFBA"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "4B19B8846A8BA50E"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0075A2D34297E247"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "00000000000000E3"
+				item: "minecolonies:blockhutswineherder"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["00000000000000E0"]
+			id: "00000000000000E4"
+			rewards: [
+				{
+					count: 8
+					id: "0000000000000282"
+					item: "minecraft:paper"
+					type: "item"
+				}
+				{
+					id: "6E18D14B5D699383"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "2833DF439978244F"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "00000000000000E5"
+				item: "minecolonies:blockhutchickenherder"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["00000000000000DC"]
+			description: [
+				"{litv3.my_colony.description19}"
+				"{litv3.my_colony.description20}"
+			]
+			id: "00000000000000E6"
+			rewards: [
+				{
+					id: "00000000000001FF"
+					item: {
+						Count: 1b
+						id: "minecraft:stone_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "35268BCD19F96C34"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "160AD55CDBF9E219"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "665420B9F49A3D03"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "00000000000000E7"
+				item: "minecolonies:blockhutlumberjack"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["00000000000000DC"]
+			description: [
+				"{litv3.my_colony.description21}"
+				""
+				"{litv3.my_colony.description22}"
+			]
+			id: "00000000000000E8"
+			rewards: [
+				{
+					id: "00000000000001F0"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "00000000000001FE"
+					item: {
+						Count: 1b
+						id: "minecraft:stone_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5273D85B92117357"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1E148AB1DB2CDFAC"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "00000000000000E9"
+				item: "minecolonies:blockhutminer"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00000000000000DC"]
+			description: [
+				"{litv3.my_colony.description23}"
+				"{litv3.my_colony.description24}"
+				""
+				"{litv3.my_colony.description25}"
+			]
+			id: "00000000000000EA"
+			rewards: [
+				{
+					id: "00000000000001FC"
+					item: {
+						Count: 1b
+						id: "minecraft:bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "00000000000001FD"
+					item: "minecraft:arrow"
+					type: "item"
+				}
+				{
+					id: "2295367B93475578"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "30230733556BF468"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "00000000000000EB"
+				item: "minecolonies:blockhutguardtower"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0000000000000105"]
+			id: "00000000000000EC"
+			rewards: [
+				{
+					id: "000000000000027F"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_regeneration"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "00000000000002F0"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "00000000000002F1"
+					item: "minecraft:potato"
+					type: "item"
+				}
+				{
+					id: "605BEDA01CE29BE8"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "00000000000000ED"
+				item: "minecolonies:blockhuthospital"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"{litv3.my_colony.description26}"
+				"{litv3.my_colony.description27}"
+				""
+				"{litv3.my_colony.description28}"
+				"{litv3.my_colony.description29}"
+				"{litv3.my_colony.description30}"
+			]
+			id: "00000000000000F0"
+			rewards: [
+				{
+					id: "0000000000000206"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "000000000000020B"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				icon: "itemfilters:not"
+				id: "00000000000000F1"
+				type: "checkmark"
+			}]
+			title: "{litv3.my_colony.title1}"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00000000000000E0"]
+			id: "00000000000000F2"
+			rewards: [
+				{
+					count: 8
+					id: "0000000000000284"
+					item: "minecraft:paper"
+					type: "item"
+				}
+				{
+					id: "54C7F1CAC3FC300A"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "1423FB349DA5C4D6"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "00000000000000F3"
+				item: "minecolonies:blockhutcowboy"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000000105"]
+			id: "00000000000000F4"
+			rewards: [
+				{
+					count: 2
+					id: "00000000000001EA"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "7469C5AB50F94D85"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "133199DDAE8A8884"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "00000000000000F5"
+				item: "minecolonies:blockhutcomposter"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["000000000000010B"]
+			description: ["{litv3.my_colony.description31}"]
+			id: "00000000000000F6"
+			rewards: [
+				{
+					id: "00000000000001F6"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "431A1217A04C863D"
+					item: "buildersdelight:dark_oak_table_2"
+					type: "item"
+				}
+				{
+					id: "3629DC91982517B6"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "470B8AAECF851119"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "00000000000000F7"
+				item: "minecolonies:blockhutcook"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["00000000000000F6"]
+			id: "00000000000000F8"
+			rewards: [
+				{
+					count: 8
+					id: "0000000000000280"
+					item: "minecraft:paper"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "00000000000002ED"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					id: "2598E19C8BC00538"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "00000000000000F9"
+				item: "minecolonies:blockhutbaker"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["00000000000000E0"]
+			id: "00000000000000FA"
+			rewards: [
+				{
+					count: 8
+					id: "0000000000000283"
+					item: "minecraft:paper"
+					type: "item"
+				}
+				{
+					id: "0C92E0115BCB6CCA"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "7AED896A025E731F"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "00000000000000FB"
+				item: "minecolonies:blockhutshepherd"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["00000000000000DC"]
+			description: [
+				"{litv3.my_colony.description32}"
+				""
+				"{litv3.my_colony.description33}"
+				"{litv3.my_colony.description34}"
+				"{litv3.my_colony.description35}"
+				""
+				"{litv3.my_colony.description36}"
+			]
+			id: "00000000000000FD"
+			rewards: [
+				{
+					id: "265311F4CA978DCA"
+					item: {
+						Count: 1b
+						id: "minecraft:clock"
+						tag: {
+							"quark:clock_calculated": 1
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "00000000000002EC"
+					item: "minecraft:cooked_beef"
+					type: "item"
+				}
+				{
+					id: "423CAA030D15316B"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1EA0A722E5BE3DF3"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "18BF64EF084A95D7"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "55FAD39AC41A48F3"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "00000000000000FE"
+				item: "minecolonies:blockhutcitizen"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0000000000000101"]
+			id: "00000000000000FF"
+			rewards: [
+				{
+					id: "00000000000002F6"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "7354A474CD5A5B7E"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_strength"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "08495D3FB8AD7715"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "biomemakeover:adrenaline"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000100"
+				item: "minecolonies:blockhutcombatacademy"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0000000000000105"]
+			id: "0000000000000101"
+			rewards: [
+				{
+					id: "00000000000002F7"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "5025BE5DF57DB99B"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "5727BA777139921E"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000102"
+				item: "minecolonies:blockhutbarracks"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0000000000000101"]
+			id: "0000000000000103"
+			rewards: [
+				{
+					id: "00000000000002F5"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 64
+					id: "12C894C285BDB69D"
+					item: "minecraft:arrow"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "46F3D7902B714A70"
+					item: "alexsmobs:shark_tooth_arrow"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000104"
+				item: "minecolonies:blockhutarchery"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["000000000000010D"]
+			description: ["{litv3.my_colony.description37}"]
+			id: "0000000000000105"
+			rewards: [
+				{
+					count: 8
+					id: "000000000000027B"
+					item: "minecraft:paper"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "00000000000002EE"
+					item: "minecraft:book"
+					type: "item"
+				}
+				{
+					id: "56B951E9A45A5EA9"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "rare_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "76016307EE8D9663"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "0000000000000106"
+				item: "minecolonies:blockhutuniversity"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000000105"]
+			id: "0000000000000107"
+			rewards: [
+				{
+					id: "00000000000002F8"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "4DB54346DC488D8B"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "74C7ED0D6F59A7DB"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000108"
+				item: "minecolonies:blockhutsawmill"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0000000000000105"]
+			id: "0000000000000109"
+			rewards: [
+				{
+					count: 8
+					id: "000000000000027C"
+					item: "minecraft:sugar_cane"
+					type: "item"
+				}
+				{
+					id: "515766934031A850"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 5
+					type: "item"
+				}
+				{
+					id: "5979DA590F5F1152"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "000000000000010A"
+				item: "minecolonies:blockhutplantation"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"00000000000000EA"
+				"00000000000000E8"
+				"00000000000000E6"
+			]
+			description: [
+				"{litv3.my_colony.description38}"
+				""
+				"{litv3.my_colony.description39}"
+				"{litv3.my_colony.description40}"
+			]
+			id: "000000000000010B"
+			rewards: [
+				{
+					id: "74687B4AB9179F43"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:swiftness"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "39465AE28EEB0D5B"
+					item: "minecraft:chest"
+					type: "item"
+				}
+				{
+					id: "396E01CDBEFDA858"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "171A3562AA09CC5B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "000000000000010C"
+				item: "minecolonies:blockhutwarehouse"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["000000000000010B"]
+			description: [
+				"{litv3.my_colony.description41}"
+				""
+				"{litv3.my_colony.description42}"
+				""
+				"{litv3.my_colony.description43}"
+				"{litv3.my_colony.description44}"
+			]
+			id: "000000000000010D"
+			rewards: [
+				{
+					id: "654B3EF0C2AB368E"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:swiftness"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00000000000001EE"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0000000000000285"
+					item: "minecraft:paper"
+					type: "item"
+				}
+				{
+					id: "45499A54EE483474"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "000000000000010E"
+				item: "minecolonies:blockhutdeliveryman"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000000113"]
+			id: "000000000000010F"
+			rewards: [
+				{
+					count: 8
+					id: "000000000000027D"
+					item: "minecraft:paper"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "00000000000002F3"
+					item: "minecraft:book"
+					type: "item"
+				}
+				{
+					id: "00000000000002F4"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:fortune"
+								lvl: 3
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1FCCC854C51C83F5"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E6BED6DA75F6DEA"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "0000000000000110"
+				item: "minecolonies:blockhutlibrary"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0000000000000117"]
+			id: "0000000000000111"
+			rewards: [
+				{
+					count: 2
+					id: "00000000000001E2"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "00000000000002FA"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "1D54DF49B24D909B"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000112"
+				item: "minecolonies:blockhutmechanic"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0000000000000105"]
+			id: "0000000000000113"
+			rewards: [
+				{
+					count: 8
+					id: "000000000000027E"
+					item: "minecraft:paper"
+					type: "item"
+				}
+				{
+					id: "00000000000002F2"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 3
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "020CFB937EE0C0DB"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "68BE7F96A3B71E31"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "0000000000000114"
+				item: "minecolonies:blockhutschool"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["000000000000011D"]
+			id: "0000000000000115"
+			rewards: [
+				{
+					id: "00000000000002FE"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 64
+					id: "4D31CB33C13E47B7"
+					item: "minecraft:granite"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1CA66FE596BE66A2"
+					item: "minecraft:diorite"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1A5B8CD0AB74B9DD"
+					item: "minecraft:andesite"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000116"
+				item: "minecolonies:blockhutstonesmeltery"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0000000000000105"]
+			id: "0000000000000117"
+			rewards: [
+				{
+					id: "00000000000002F9"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "0202EC96CD81C8DB"
+					item: "minecraft:anvil"
+					type: "item"
+				}
+				{
+					id: "7C00E8B92E9E160B"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000118"
+				item: "minecolonies:blockhutblacksmith"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0000000000000117"]
+			id: "0000000000000119"
+			rewards: [
+				{
+					id: "00000000000002FC"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 64
+					id: "500DE0999066B5F8"
+					item: "minecraft:stone"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "000000000000011A"
+				item: "minecolonies:blockhutstonemason"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0000000000000119"]
+			id: "000000000000011B"
+			rewards: [
+				{
+					count: 2
+					id: "00000000000001E5"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "00000000000002FD"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "000000000000011C"
+				item: "minecolonies:blockhutcrusher"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0000000000000119"]
+			id: "000000000000011D"
+			rewards: [
+				{
+					id: "00000000000002FB"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 16
+					id: "339D254CFD291ECE"
+					item: "minecraft:iron_ore"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "65ADA3C93ACC3132"
+					item: "minecraft:coal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "000000000000011E"
+				item: "minecolonies:blockhutsmeltery"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["00000000000000F0"]
+			description: [
+				"{litv3.my_colony.description45}"
+				"{litv3.my_colony.description46}"
+			]
+			id: "3E87ADA2C0121147"
+			rewards: [{
+				id: "61E5D8C98919CD2D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "charm:magnetic"
+							lvl: 1
+						}]
+					}
+				}
+				id: "1390034945A52D85"
+				title: "{litv3.my_colony.title2}"
+				type: "checkmark"
+			}]
+			title: "{litv3.my_colony.title3}"
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0000000000000105"]
+			id: "62A9D63A27D727DD"
+			rewards: [
+				{
+					id: "7BB5A978D7F4852B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "79C33645C694E458"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C7AD987258A9BF3"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3CBE7656399FA5BC"
+				item: "minecolonies:blockhutsifter"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0000000000000105"]
+			id: "4DDA20FE0826542C"
+			rewards: [
+				{
+					id: "71736AC44145B84B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "31D81C520198A2EB"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "270D32A1B86A8EB1"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "06C69330AF0E4DBA"
+				item: "minecolonies:blockhutflorist"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0000000000000105"]
+			id: "013B3247EA230BF7"
+			rewards: [
+				{
+					count: 6
+					id: "362B005716D19773"
+					item: "minecraft:book"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "70169297392B186C"
+					item: "minecraft:lapis_lazuli"
+					random_bonus: 5
+					type: "item"
+				}
+				{
+					id: "69F381F747CF60A4"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "661581413A33F252"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "5C905C3C08B28AF9"
+				item: "minecolonies:blockhutenchanter"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["000000000000011D"]
+			id: "33D4E31A895D1B1C"
+			rewards: [
+				{
+					id: "32CB8574C8DAE58F"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 64
+					id: "62C9D797E0653E9B"
+					item: "minecraft:glass"
+					type: "item"
+				}
+				{
+					id: "79AD76FB5ED9BBBE"
+					item: "create:framed_glass_door"
+					type: "item"
+				}
+				{
+					id: "1188B41FC1BA4816"
+					item: "create:framed_glass_trapdoor"
+					type: "item"
+				}
+				{
+					id: "1F64C5BB30C85768"
+					item: "quark:glass_item_frame"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6F7C41C8F3E82228"
+					item: "buildersdelight:glass_3"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "63FB446754882BD0"
+				item: "minecolonies:blockhutglassblower"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4DDA20FE0826542C"]
+			id: "56156B2771545E54"
+			rewards: [
+				{
+					count: 2
+					id: "24482693AEC4AEA1"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "10B63EE421C4E9F0"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "0EA7EE17411CF43E"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "589ED6CDB5C23B8B"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "141C1C26BFF2F943"
+				item: "minecolonies:blockhutdyer"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0000000000000107"]
+			id: "3CB43749C678B163"
+			rewards: [
+				{
+					count: 2
+					id: "414D704BBC187708"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "3DF543AF58D2B0E6"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "7116ADF9A6D7EB74"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "56E6C2527B0505AC"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "792AFF5A2F474FC6"
+				item: "minecolonies:blockhutfletcher"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["000000000000011B"]
+			id: "1DF2DBA84A81F375"
+			rewards: [
+				{
+					id: "115A68BAEB91122E"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 62
+					id: "6DC10B4AEFDFD673"
+					item: "minecraft:white_concrete_powder"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3C9C24786C4B84CB"
+					item: "minecraft:gray_concrete_powder"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6FEAC7D273AC27F8"
+					item: "minecraft:light_gray_concrete_powder"
+					type: "item"
+				}
+				{
+					id: "083A4C64A1B7A5A1"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "25877BA58E55DE85"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 5
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "409E9960D6DA64EC"
+				item: "minecolonies:blockhutconcretemixer"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["00000000000000E0"]
+			id: "4DAE221F0AD08541"
+			rewards: [
+				{
+					id: "073A7484D647A10E"
+					item: "minecraft:beehive"
+					type: "item"
+				}
+				{
+					id: "44D722E9E9BA907B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "4BBC8654CFB0393C"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "426DEC7C8D86CEF6"
+				item: "minecolonies:blockhutbeekeeper"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3E87ADA2C0121147"]
+			description: ["{litv3.my_colony.description47}"]
+			icon: "minecraft:campfire"
+			id: "1205D0D6C4DA06A3"
+			rewards: [{
+				id: "0343E2EE84BAB5E1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "51D039BB124274BF"
+				type: "checkmark"
+			}]
+			title: "{litv3.my_colony.title4}"
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3E87ADA2C0121147"]
+			description: [
+				"{litv3.my_colony.description48}"
+				""
+				"{litv3.my_colony.description49}"
+				""
+				"{litv3.my_colony.description50}"
+				"{litv3.my_colony.description51}"
+				""
+				"{litv3.my_colony.description52}"
+				"{litv3.my_colony.description53}"
+				""
+				"{litv3.my_colony.description54}"
+				""
+				"{litv3.my_colony.description55}"
+				""
+				"{litv3.my_colony.description56}"
+				"{litv3.my_colony.description57}"
+			]
+			icon: "minecraft:dirt_path"
+			id: "584398525C5EF003"
+			rewards: [{
+				id: "19AC29845BC361B4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "349ACBC710CBC1A0"
+				title: "{litv3.my_colony.title5}"
+				type: "checkmark"
+			}]
+			title: "{litv3.my_colony.title6}"
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3E87ADA2C0121147"]
+			description: [
+				"{litv3.my_colony.description58}"
+				""
+				"{litv3.my_colony.description59}"
+				""
+				"{litv3.my_colony.description60}"
+				""
+				"{litv3.my_colony.description61}"
+			]
+			icon: "ftbquests:barrier"
+			id: "06C807355C090380"
+			rewards: [{
+				id: "456BE79668AAAA84"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "12E84EB865CDD876"
+				title: "{litv3.my_colony.title7}"
+				type: "checkmark"
+			}]
+			title: "{litv3.my_colony.title8}"
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3E87ADA2C0121147"]
+			description: [
+				"{litv3.my_colony.description62}"
+				"{litv3.my_colony.description63}"
+				""
+				"{litv3.my_colony.description64}"
+				""
+				"{litv3.my_colony.description65}"
+				""
+				"{litv3.my_colony.description66}"
+				"{litv3.my_colony.description67}"
+				""
+				"{litv3.my_colony.description68}"
+				"{litv3.my_colony.description69}"
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:golden_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2B56976F11F9263F"
+			rewards: [{
+				id: "3ED1C491BA506E95"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{litv3.my_colony.subtitle0}"
+			tasks: [{
+				id: "4E8741C5B2355ED1"
+				title: "{litv3.my_colony.title9}"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["00000000000000D7"]
+			id: "490BB3543183E1DA"
+			rewards: [
+				{
+					id: "5AE5359E56094B3B"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "22C6B4B11BAE44FC"
+					item: "aquaculture:treasure_chest"
+					type: "item"
+				}
+				{
+					id: "5799F910407CE00F"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "05EC6886DB1BD6ED"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "{litv3.my_colony.subtitle1}"
+			tasks: [{
+				advancement: "minecolonies:minecolonies/build_town_hall_5"
+				criterion: ""
+				id: "7C9EABA51E0A8C7C"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["00000000000000FD"]
+			id: "7CA034420293B0AE"
+			rewards: [
+				{
+					id: "087BB70A0ACC1AB7"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "19AF14A9E83231D1"
+					item: "aquaculture:lockbox"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "322E59DA494B48F7"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+				{
+					id: "72DB67821BAE84C9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "0560CDBB85657538"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 7
+					type: "item"
+				}
+			]
+			subtitle: "{litv3.my_colony.subtitle2}"
+			tasks: [{
+				advancement: "minecolonies:minecolonies/colony_population_25"
+				criterion: ""
+				id: "13190020BC68CC5F"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7CA034420293B0AE"]
+			id: "4F2EAF7F65E14680"
+			rewards: [
+				{
+					id: "6401A56CA0B0F194"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "7FEEAFD92EF3C51C"
+					item: "aquaculture:treasure_chest"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "7F9AE35C2615FD79"
+					item: "minecraft:slime_ball"
+					type: "item"
+				}
+				{
+					id: "2EF2C3BB807AC176"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "0899DD3567EC57C3"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 14
+					type: "item"
+				}
+			]
+			subtitle: "{litv3.my_colony.subtitle3}"
+			tasks: [{
+				advancement: "minecolonies:minecolonies/colony_population_50"
+				criterion: ""
+				id: "40C95338954E041C"
+				type: "advancement"
+			}]
+			x: 8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0000000000000101"]
+			id: "557DE4B851A81D4A"
+			rewards: [
+				{
+					id: "753BD04DE3CFEC54"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "73A73608AD04E807"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "{litv3.my_colony.subtitle4}"
+			tasks: [{
+				advancement: "minecolonies:military/army_8"
+				criterion: ""
+				id: "1A1EB4D22F0027EB"
+				type: "advancement"
+			}]
+			x: 20.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["557DE4B851A81D4A"]
+			id: "0D576E61BC0E0E26"
+			rewards: [{
+				id: "329D47BCD2924DA3"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			subtitle: "{litv3.my_colony.subtitle5}"
+			tasks: [{
+				advancement: "minecolonies:military/army_30"
+				criterion: ""
+				id: "4BD17D0B5116CAB6"
+				type: "advancement"
+			}]
+			x: 22.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0D576E61BC0E0E26"]
+			id: "2301392C37F63AAC"
+			rewards: [{
+				id: "4189B8D95155D9B2"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			subtitle: "{litv3.my_colony.subtitle6}"
+			tasks: [{
+				advancement: "minecolonies:military/army_80"
+				criterion: ""
+				id: "4B05CBAC619FE31F"
+				type: "advancement"
+			}]
+			x: 23.5d
+			y: -2.5d
+		}
+	]
+	title: "{litv3.my_colony.title10}"
+}

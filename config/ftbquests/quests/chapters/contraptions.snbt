@@ -1,0 +1,1160 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "contraptions"
+	group: "4BB8DCEF290E19CA"
+	icon: {
+		Count: 1b
+		ForgeCaps: {
+			"dungeons_libraries:built_in_enchantments": {
+				BuiltInEnchantments: [ ]
+			}
+		}
+		id: "supplementaries:wrench"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "3F370436B7164439"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["{litv3.contraptions.description0}"]
+			id: "685B1BCA8B0F49D2"
+			rewards: [{
+				id: "4F5AB49EECB0F03C"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "213C1AB0435A3564"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:wrench"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			description: ["{litv3.contraptions.description1}"]
+			icon: "ftbquests:barrier"
+			id: "0FFBD03D30C69566"
+			rewards: [{
+				id: "215E1D0034E9F6B6"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "0262BB5E11609CFF"
+				title: "{litv3.contraptions.title0}"
+				type: "checkmark"
+			}]
+			title: "{litv3.contraptions.title1}"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			description: ["{litv3.contraptions.description2}"]
+			id: "0A9964481C4795E6"
+			rewards: [{
+				id: "75607CA062D99E83"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "5238B45455B4BD8E"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "supplementaries:ropes"
+					}
+				}
+				title: "{litv3.contraptions.title2}"
+				type: "item"
+			}]
+			title: "{litv3.contraptions.title3}"
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			description: ["{litv3.contraptions.description3}"]
+			id: "165C637A0F04D7FD"
+			rewards: [{
+				id: "0963D37FD297F54B"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "07DE7D1D0FE1B031"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:trowel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			id: "4E24F97ADF4E366C"
+			rewards: [{
+				id: "68425FB64B66CB2E"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "442FF74A70064D63"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:gravisand"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			description: ["{litv3.contraptions.description4}"]
+			id: "6CE12F9EBD63ABFA"
+			rewards: [{
+				id: "135E872BF0DE734E"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "43FE095BB5721DF2"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:ender_watcher"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			description: ["{litv3.contraptions.description5}"]
+			id: "53C3ED6F7249424E"
+			rewards: [{
+				id: "35446C88D8F85997"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "08F5A815500B0372"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:bamboo_spikes"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			description: ["{litv3.contraptions.description6}"]
+			id: "70D23E7FD975D726"
+			rewards: [{
+				id: "542C4CE912BBB60F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3870A8EF35D5DE3E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:abacus"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			description: ["{litv3.contraptions.description7}"]
+			id: "7F50F903FEF3FDFD"
+			rewards: [{
+				id: "1FD2D4E1AC5B4226"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "5D3048957969E9EB"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:slime_in_a_bucket"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			description: ["{litv3.contraptions.description8}"]
+			id: "3D795EA23FA1D86E"
+			rewards: [{
+				id: "1C6145A671E52254"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "2B62B2311326308F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:glass_item_frame"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			description: ["{litv3.contraptions.description9}"]
+			id: "1A1032A815E0BEE0"
+			rewards: [{
+				id: "42E218A018552864"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "38FD22CD2976D23C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:chute"
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			description: ["{litv3.contraptions.description10}"]
+			id: "576E37A04D699593"
+			rewards: [{
+				id: "2EDF39D144F94C4F"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "0A1A3F181EBDA173"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:crank"
+				}
+				type: "item"
+			}]
+			title: "{litv3.contraptions.title4}"
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			description: ["{litv3.contraptions.description11}"]
+			id: "57114F4515F106CE"
+			rewards: [{
+				id: "71366EEBB0E93959"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "63A9040490A4F42D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:cog_block"
+				}
+				type: "item"
+			}]
+			title: "{litv3.contraptions.title5}"
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			description: ["{litv3.contraptions.description12}"]
+			id: "7EFBB9A760690892"
+			rewards: [{
+				id: "69C71AF63827C24E"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "672CD462B12A618E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:jar"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7EFBB9A760690892"]
+			description: ["{litv3.contraptions.description13}"]
+			id: "5A2297A4C2BB4A7B"
+			rewards: [{
+				id: "61FAD3ABBFCF981D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "310209E691066890"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:cage"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			description: ["{litv3.contraptions.description14}"]
+			id: "74256E8E141D9EF7"
+			rewards: [{
+				id: "1730574C6E60C56B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4FF1F19B6821D661"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:flute"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["656E18F286DDF200"]
+			description: ["{litv3.contraptions.description15}"]
+			id: "5174D7892CC4EC9C"
+			rewards: [{
+				id: "1365FFA3F057FF77"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "6A1B1FBCFAC41FE6"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:lock_block"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			description: ["{litv3.contraptions.description16}"]
+			id: "656E18F286DDF200"
+			rewards: [{
+				id: "55F548794253D2B4"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "4249B6E1C43FD2C6"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:key"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			description: ["{litv3.contraptions.description17}"]
+			id: "2FC282739157D6DB"
+			rewards: [{
+				id: "35BEA6FA2FDEB575"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "1A7E7AE3DDCC6D56"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:speaker_block"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			description: ["{litv3.contraptions.description18}"]
+			id: "44018815222E8CA9"
+			rewards: [
+				{
+					id: "36A359779ED19C3F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:feather"
+					}
+					type: "item"
+				}
+				{
+					id: "726568AA20A12772"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:porkchop"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6179061DE2FEE6BC"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:bow": {
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:slingshot"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			description: ["{litv3.contraptions.description19}"]
+			id: "6C27B8ECBE98B97A"
+			rewards: [{
+				id: "67F82B8D2133F3AE"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "797AE75BADF88032"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:turn_table"
+				}
+				type: "item"
+			}]
+			title: "{litv3.contraptions.title6}"
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			description: ["{litv3.contraptions.description20}"]
+			id: "33871879DC31D806"
+			rewards: [{
+				id: "0F73A73059B4B4C1"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "66E7DA28B84ED6F9"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:spring_launcher"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["656E18F286DDF200"]
+			description: ["{litv3.contraptions.description21}"]
+			id: "1A01E6EA78F32D04"
+			rewards: [{
+				id: "58E932BE5399C7C7"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [
+				{
+					id: "6F7ABF88AF32ECD6"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "supplementaries:netherite_door"
+					}
+					type: "item"
+				}
+				{
+					id: "4B6B668B60B39E45"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "supplementaries:netherite_trapdoor"
+					}
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			description: ["{litv3.contraptions.description22}"]
+			id: "68339B382A047B89"
+			rewards: [{
+				id: "5790A19923689BC2"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [
+				{
+					id: "36DC7505AA92B3D8"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "supplementaries:gold_door"
+					}
+					type: "item"
+				}
+				{
+					id: "570D99BDE6FDF0C5"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "supplementaries:gold_trapdoor"
+					}
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			description: ["{litv3.contraptions.description23}"]
+			id: "589AAF1FD992CE82"
+			rewards: [{
+				id: "4E11751046A385EF"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "0112A5D6B124D755"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:redstone_illuminator"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["04FC98FCA731C4A9"]
+			description: ["{litv3.contraptions.description24}"]
+			id: "2031C7013AC15F55"
+			rewards: [{
+				id: "0A6FD84AC48E99DB"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2490DAF5ACB32916"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:flag_white"
+				}
+				type: "item"
+			}]
+			title: "{litv3.contraptions.title7}"
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			description: ["{litv3.contraptions.description25}"]
+			id: "04FC98FCA731C4A9"
+			rewards: [{
+				id: "799ED07892834F72"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [
+				{
+					id: "7CD771875A88A91A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:stick"
+					}
+					type: "item"
+				}
+				{
+					id: "7475B3400A33F530"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:book"
+					}
+					type: "item"
+				}
+			]
+			title: "{litv3.contraptions.title8}"
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			description: ["{litv3.contraptions.description26}"]
+			id: "10756B8268EF9D31"
+			rewards: [{
+				id: "408F78F77F4F7B87"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "784291CBD06E6041"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:raked_gravel"
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["347C4ABF9BCB62A2"]
+			description: ["{litv3.contraptions.description27}"]
+			id: "77BE21B5DAA11294"
+			rewards: [{
+				id: "6068AA7A93D0A55C"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "0398D2D60687CD25"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:safe"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: ["{litv3.contraptions.description28}"]
+			id: "347C4ABF9BCB62A2"
+			rewards: [{
+				id: "504AA50E8C2BBD8D"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "66388320D6EF886E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:sack"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			description: ["{litv3.contraptions.description29}"]
+			id: "1B166861840A1636"
+			rewards: [{
+				id: "0EADF3111CCB3DBF"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "7360B900F1ABD942"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:bomb"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1B166861840A1636"]
+			description: [
+				"{litv3.contraptions.description30}"
+				"{litv3.contraptions.description31}"
+			]
+			id: "6945746FAEFCA3CE"
+			rewards: [{
+				id: "7B93489E72441F76"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5D76A5D34E9B507A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:bomb_blue"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			description: ["{litv3.contraptions.description32}"]
+			id: "5EE6C136B7D19495"
+			rewards: [{
+				id: "1190489DC5261120"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "2DA5B1A64D98FDA0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:bellows"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			description: ["{litv3.contraptions.description33}"]
+			id: "628078793DF96DF5"
+			rewards: [{
+				id: "42C79D947575E3A7"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "0CB9A0F9B4FE995F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:blank_rune"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["628078793DF96DF5"]
+			description: ["{litv3.contraptions.description34}"]
+			id: "02E1C18734A64F61"
+			rewards: [{
+				id: "6470B8B7A790C62D"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "206C57846B13C62C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:rainbow_rune"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			description: ["{litv3.contraptions.description35}"]
+			id: "5C054B01A4C3BBE6"
+			rewards: [{
+				id: "146D9232186F2AF9"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "4561D807AD64FEF0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:dragon_scale"
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			description: ["{litv3.contraptions.description36}"]
+			id: "60F00B764C6CE1F3"
+			rewards: [{
+				id: "146E0B9101D81C05"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "2FEBA351D131FF28"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:iron_ladder"
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			description: ["{litv3.contraptions.description37}"]
+			id: "0E4585C54A3E8C31"
+			rewards: [{
+				id: "27F131E3B99FAFA7"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "3B76F3A33283FC58"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:feeding_trough"
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			description: ["{litv3.contraptions.description38}"]
+			id: "4D7997F821600BF2"
+			rewards: [{
+				id: "1E3991C4DBD728D7"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "61EAEF93379F49F1"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:obsidian_pressure_plate"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			description: ["{litv3.contraptions.description39}"]
+			id: "60A8B8712FF18A56"
+			rewards: [{
+				id: "77D822B55C022793"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "52E5BB0E259EFA4A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:brass_lantern"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			description: ["{litv3.contraptions.description40}"]
+			id: "3DC8CBEB83275A0B"
+			optional: true
+			rewards: [
+				{
+					id: "2EF02A260441E094"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "alexsmobs:fish_oil"
+						tag: {
+							display: {
+								Name: "{'text':'Lamp Oil','italic':'false'}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "173D306F672D8E1F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "supplementaries:rope"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1A45B627BF4171A4"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "supplementaries:bomb"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "supplementaries:red_merchant"
+					}
+				}
+				id: "38C3277823F3A519"
+				observe_type: 5
+				timer: 0L
+				title: "{litv3.contraptions.title9}"
+				to_observe: "supplementaries:red_merchant"
+				type: "observation"
+			}]
+			title: "{litv3.contraptions.title10}"
+			x: -3.0d
+			y: -7.0d
+		}
+	]
+	title: "{litv3.contraptions.title11}"
+}

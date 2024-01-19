@@ -1,0 +1,1403 @@
+{
+	id: "287F60536FAB8909"
+	loot_crate: {
+		color: 10376192
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "tinker_s_part_loot_crate"
+	}
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:small_axe_head"
+				tag: {
+					Material: "tconstruct:blazing_bone"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:small_axe_head"
+				tag: {
+					Material: "tconstruct:nahuatl"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:small_axe_head"
+				tag: {
+					Material: "tconstruct:amethyst_bronze"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:small_axe_head"
+				tag: {
+					Material: "tconstruct:plated_slimewood"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:small_axe_head"
+				tag: {
+					Material: "tconstruct:cobalt"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:small_axe_head"
+				tag: {
+					Material: "tconstruct:necrotic_bone"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:small_axe_head"
+				tag: {
+					Material: "tconstruct:flint"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:repair_kit"
+				tag: {
+					Material: "tconstruct:amethyst_bronze"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:repair_kit"
+				tag: {
+					Material: "tconstruct:slimesteel"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:repair_kit"
+				tag: {
+					Material: "tconstruct:cobalt"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:repair_kit"
+				tag: {
+					Material: "tconstruct:queens_slime"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:repair_kit"
+				tag: {
+					Material: "tconstruct:hepatizon"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:repair_kit"
+				tag: {
+					Material: "tconstruct:iron"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:pick_head"
+				tag: {
+					Material: "tconstruct:slimewood"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:pick_head"
+				tag: {
+					Material: "tconstruct:amethyst_bronze"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:pick_head"
+				tag: {
+					Material: "tconstruct:iron"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:hammer_head"
+				tag: {
+					Material: "tconstruct:whitestone"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:hammer_head"
+				tag: {
+					Material: "tconstruct:seared_stone"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:hammer_head"
+				tag: {
+					Material: "tconstruct:copper"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:pick_head"
+				tag: {
+					Material: "tconstruct:plated_slimewood"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:pick_head"
+				tag: {
+					Material: "tconstruct:blazing_bone"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:pick_head"
+				tag: {
+					Material: "tconstruct:cobalt"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:pick_head"
+				tag: {
+					Material: "tconstruct:manyullyn"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:pick_head"
+				tag: {
+					Material: "tconstruct:seared_stone"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:pick_head"
+				tag: {
+					Material: "tconstruct:rose_gold"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:small_axe_head"
+				tag: {
+					Material: "tconstruct:rose_gold"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:small_axe_head"
+				tag: {
+					Material: "tconstruct:seared_stone"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:small_axe_head"
+				tag: {
+					Material: "tconstruct:copper"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:small_axe_head"
+				tag: {
+					Material: "tconstruct:iron"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:hammer_head"
+				tag: {
+					Material: "tconstruct:plated_slimewood"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:hammer_head"
+				tag: {
+					Material: "tconstruct:nahuatl"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:hammer_head"
+				tag: {
+					Material: "tconstruct:amethyst_bronze"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:hammer_head"
+				tag: {
+					Material: "tconstruct:scorched_stone"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:hammer_head"
+				tag: {
+					Material: "tconstruct:necrotic_bone"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:small_blade"
+				tag: {
+					Material: "tconstruct:wood"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:small_blade"
+				tag: {
+					Material: "tconstruct:queens_slime"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:small_blade"
+				tag: {
+					Material: "tconstruct:hepatizon"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:small_blade"
+				tag: {
+					Material: "tconstruct:plated_slimewood"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:small_blade"
+				tag: {
+					Material: "tconstruct:rose_gold"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:small_axe_head"
+				tag: {
+					Material: "tconstruct:flint"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:broad_axe_head"
+				tag: {
+					Material: "tconstruct:bone"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:broad_axe_head"
+				tag: {
+					Material: "tconstruct:copper"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:broad_axe_head"
+				tag: {
+					Material: "tconstruct:iron"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:broad_axe_head"
+				tag: {
+					Material: "tconstruct:seared_stone"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:broad_axe_head"
+				tag: {
+					Material: "tconstruct:slimewood"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:broad_axe_head"
+				tag: {
+					Material: "tconstruct:silver"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:broad_axe_head"
+				tag: {
+					Material: "tconstruct:whitestone"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:broad_axe_head"
+				tag: {
+					Material: "tconstruct:necrotic_bone"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:small_blade"
+				tag: {
+					Material: "tconstruct:bloodbone"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:small_blade"
+				tag: {
+					Material: "tconstruct:iron"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:small_blade"
+				tag: {
+					Material: "tconstruct:copper"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:broad_axe_head"
+				tag: {
+					Material: "tconstruct:cobalt"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:broad_axe_head"
+				tag: {
+					Material: "tconstruct:pig_iron"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:broad_axe_head"
+				tag: {
+					Material: "tconstruct:amethyst_bronze"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:broad_axe_head"
+				tag: {
+					Material: "tconstruct:amethyst_bronze"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:broad_axe_head"
+				tag: {
+					Material: "tconstruct:slimesteel"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:broad_axe_head"
+				tag: {
+					Material: "tconstruct:scorched_stone"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:small_blade"
+				tag: {
+					Material: "tconstruct:pig_iron"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:small_blade"
+				tag: {
+					Material: "tconstruct:nahuatl"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:small_blade"
+				tag: {
+					Material: "tconstruct:amethyst_bronze"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:small_blade"
+				tag: {
+					Material: "tconstruct:slimesteel"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:small_blade"
+				tag: {
+					Material: "tconstruct:scorched_stone"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:small_blade"
+				tag: {
+					Material: "tconstruct:necrotic_bone"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:small_blade"
+				tag: {
+					Material: "tconstruct:whitestone"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:small_blade"
+				tag: {
+					Material: "tconstruct:silver"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:small_blade"
+				tag: {
+					Material: "tconstruct:slimewood"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:broad_blade"
+				tag: {
+					Material: "tconstruct:bloodbone"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:broad_blade"
+				tag: {
+					Material: "tconstruct:seared_stone"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:broad_blade"
+				tag: {
+					Material: "tconstruct:iron"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:broad_blade"
+				tag: {
+					Material: "tconstruct:copper"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:broad_blade"
+				tag: {
+					Material: "tconstruct:bone"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:broad_blade"
+				tag: {
+					Material: "tconstruct:flint"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:broad_blade"
+				tag: {
+					Material: "tconstruct:rock"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:broad_blade"
+				tag: {
+					Material: "tconstruct:wood"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:round_plate"
+				tag: {
+					Material: "tconstruct:pig_iron"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:round_plate"
+				tag: {
+					Material: "tconstruct:blazing_bone"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:round_plate"
+				tag: {
+					Material: "tconstruct:copper"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:round_plate"
+				tag: {
+					Material: "tconstruct:whitestone"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:round_plate"
+				tag: {
+					Material: "tconstruct:slimewood"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:round_plate"
+				tag: {
+					Material: "tconstruct:flint"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:round_plate"
+				tag: {
+					Material: "tconstruct:rock"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:round_plate"
+				tag: {
+					Material: "tconstruct:cobalt"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:round_plate"
+				tag: {
+					Material: "tconstruct:scorched_stone"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:round_plate"
+				tag: {
+					Material: "tconstruct:bloodbone"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:round_plate"
+				tag: {
+					Material: "tconstruct:silver"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:broad_blade"
+				tag: {
+					Material: "tconstruct:slimesteel"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:broad_blade"
+				tag: {
+					Material: "tconstruct:rose_gold"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:broad_blade"
+				tag: {
+					Material: "tconstruct:nahuatl"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:round_plate"
+				tag: {
+					Material: "tconstruct:rose_gold"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:round_plate"
+				tag: {
+					Material: "tconstruct:plated_slimewood"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:round_plate"
+				tag: {
+					Material: "tconstruct:necrotic_bone"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:broad_blade"
+				tag: {
+					Material: "tconstruct:scorched_stone"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:broad_blade"
+				tag: {
+					Material: "tconstruct:whitestone"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:broad_blade"
+				tag: {
+					Material: "tconstruct:silver"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:broad_blade"
+				tag: {
+					Material: "tconstruct:slimewood"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:tool_binding"
+				tag: {
+					Material: "tconstruct:enderslime_vine"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:tool_binding"
+				tag: {
+					Material: "tconstruct:plated_slimewood"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:tool_binding"
+				tag: {
+					Material: "tconstruct:skyslime_vine"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:tool_binding"
+				tag: {
+					Material: "tconstruct:whitestone"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:tool_binding"
+				tag: {
+					Material: "tconstruct:bloodbone"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:tool_binding"
+				tag: {
+					Material: "tconstruct:copper"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:tool_binding"
+				tag: {
+					Material: "tconstruct:bone"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:large_plate"
+				tag: {
+					Material: "tconstruct:blazing_bone"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:large_plate"
+				tag: {
+					Material: "tconstruct:pig_iron"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:large_plate"
+				tag: {
+					Material: "tconstruct:flint"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:tool_binding"
+				tag: {
+					Material: "tconstruct:ancient_hide"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:tool_binding"
+				tag: {
+					Material: "tconstruct:amethyst_bronze"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:tool_binding"
+				tag: {
+					Material: "tconstruct:necrotic_bone"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:tool_binding"
+				tag: {
+					Material: "tconstruct:iron"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:tool_binding"
+				tag: {
+					Material: "tconstruct:iron"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:tool_binding"
+				tag: {
+					Material: "tconstruct:leather"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:tool_binding"
+				tag: {
+					Material: "tconstruct:rock"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:large_plate"
+				tag: {
+					Material: "tconstruct:rose_gold"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:large_plate"
+				tag: {
+					Material: "tconstruct:rock"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:large_plate"
+				tag: {
+					Material: "tconstruct:seared_stone"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:tool_binding"
+				tag: {
+					Material: "tconstruct:cobalt"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:tool_binding"
+				tag: {
+					Material: "tconstruct:pig_iron"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:tool_binding"
+				tag: {
+					Material: "tconstruct:chain"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:tool_binding"
+				tag: {
+					Material: "tconstruct:slimewood"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:tool_binding"
+				tag: {
+					Material: "tconstruct:vine"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:tool_binding"
+				tag: {
+					Material: "tconstruct:flint"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:large_plate"
+				tag: {
+					Material: "tconstruct:plated_slimewood"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:large_plate"
+				tag: {
+					Material: "tconstruct:scorched_stone"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:large_plate"
+				tag: {
+					Material: "tconstruct:iron"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:tough_handle"
+				tag: {
+					Material: "tconstruct:nahuatl"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:tough_handle"
+				tag: {
+					Material: "tconstruct:plated_slimewood"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:tough_handle"
+				tag: {
+					Material: "tconstruct:cobalt"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:tough_handle"
+				tag: {
+					Material: "tconstruct:necrotic_bone"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:tool_handle"
+				tag: {
+					Material: "tconstruct:blazing_bone"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:tough_handle"
+				tag: {
+					Material: "tconstruct:amethyst_bronze"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:tough_handle"
+				tag: {
+					Material: "tconstruct:silver"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:tough_handle"
+				tag: {
+					Material: "tconstruct:copper"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:tool_handle"
+				tag: {
+					Material: "tconstruct:slimesteel"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:tool_handle"
+				tag: {
+					Material: "tconstruct:whitestone"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:tool_handle"
+				tag: {
+					Material: "tconstruct:flint"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:tool_handle"
+				tag: {
+					Material: "tconstruct:rock"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:tool_handle"
+				tag: {
+					Material: "tconstruct:bone"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:tough_handle"
+				tag: {
+					Material: "tconstruct:scorched_stone"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:tough_handle"
+				tag: {
+					Material: "tconstruct:whitestone"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:tough_handle"
+				tag: {
+					Material: "tconstruct:iron"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:tough_handle"
+				tag: {
+					Material: "tconstruct:bone"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:tough_handle"
+				tag: {
+					Material: "tconstruct:rock"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:tool_handle"
+				tag: {
+					Material: "tconstruct:pig_iron"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:tool_handle"
+				tag: {
+					Material: "tconstruct:plated_slimewood"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:tool_handle"
+				tag: {
+					Material: "tconstruct:iron"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:tool_handle"
+				tag: {
+					Material: "tconstruct:copper"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:tough_handle"
+				tag: {
+					Material: "tconstruct:blazing_bone"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:tough_handle"
+				tag: {
+					Material: "tconstruct:pig_iron"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:tough_handle"
+				tag: {
+					Material: "tconstruct:slimewood"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:tough_handle"
+				tag: {
+					Material: "tconstruct:seared_stone"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:tool_handle"
+				tag: {
+					Material: "tconstruct:necrotic_bone"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:tool_handle"
+				tag: {
+					Material: "tconstruct:seared_stone"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:tool_handle"
+				tag: {
+					Material: "tconstruct:silver"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:tool_handle"
+				tag: {
+					Material: "tconstruct:amethyst_bronze"
+				}
+			}
+		}
+	]
+	title: "匠人的零件战利品箱"
+}

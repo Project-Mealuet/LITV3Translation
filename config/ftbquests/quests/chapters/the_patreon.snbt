@@ -1,0 +1,2468 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "the_patreon"
+	group: ""
+	icon: "kubejs:heart"
+	id: "1E11739B02616720"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 3.0d
+		hover: [ ]
+		image: "litv3:textures/misc/thank.png"
+		rotation: 0.0d
+		width: 14.0d
+		x: 3.0d
+		y: 10.5d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{litv3.the_patreon.description0}"
+				""
+				"{litv3.the_patreon.description1}"
+			]
+			icon: "kubejs:heart"
+			id: "1E533E35056D96A1"
+			size: 2.0d
+			tasks: [{
+				id: "0816AD3C57AC7395"
+				title: "{litv3.the_patreon.title0}"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "7A82C067B25BBC57"
+			rewards: [{
+				id: "51B0FC0C20A33B9C"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{litv3.the_patreon.title1}"
+			tasks: [{
+				id: "43DF67FFC95F37E7"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle0}"
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "6E3231E2134E3A00"
+			subtitle: "{litv3.the_patreon.title2}"
+			tasks: [{
+				id: "2C34F9D8A1EC054E"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle1}"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "78C49E7A8C670991"
+			subtitle: "{litv3.the_patreon.title3}"
+			tasks: [{
+				id: "15A31D4E91F7121B"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle2}"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "31612AF4525867B4"
+			subtitle: "{litv3.the_patreon.title4}"
+			tasks: [{
+				id: "48971482A88FBB5F"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle3}"
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "034DDE9EA7412A4D"
+			subtitle: "{litv3.the_patreon.title5}"
+			tasks: [{
+				id: "223942BAE0DE68F3"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle4}"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "509B5BC008B9B44D"
+			subtitle: "{litv3.the_patreon.title6}"
+			tasks: [{
+				id: "69C2910C33A554BF"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle5}"
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "15BD68DF06FF1371"
+			subtitle: "{litv3.the_patreon.title7}"
+			tasks: [{
+				id: "37149027C3CE97BA"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle6}"
+			x: 0.5d
+			y: 8.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "59C4F051008704D6"
+			subtitle: "{litv3.the_patreon.title8}"
+			tasks: [{
+				id: "62F3664F55666C67"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle7}"
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "2DD77152DFCA308A"
+			subtitle: "{litv3.the_patreon.title9}"
+			tasks: [{
+				id: "64D6DC74ADD21E91"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle8}"
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "0F7A5D81D190DA27"
+			subtitle: "{litv3.the_patreon.title10}"
+			tasks: [{
+				id: "45CAA8B338231C20"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle9}"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "7E46722D76602C57"
+			subtitle: "{litv3.the_patreon.title11}"
+			tasks: [{
+				id: "0883F09CE92D0506"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle10}"
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "3E9EB44482D6241F"
+			subtitle: "{litv3.the_patreon.title12}"
+			tasks: [{
+				id: "210407B525494D64"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle11}"
+			x: 2.5d
+			y: 8.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "76F6F0B9AAD0E014"
+			subtitle: "{litv3.the_patreon.title13}"
+			tasks: [{
+				id: "4BAA86926B6D2CF7"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle12}"
+			x: -0.5d
+			y: 8.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "610B996B1B03C9C3"
+			subtitle: "{litv3.the_patreon.title14}"
+			tasks: [{
+				id: "3C37E59CAF30D136"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle13}"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "3F76892B1594C339"
+			subtitle: "{litv3.the_patreon.title15}"
+			tasks: [{
+				id: "122DD84D78FF52B8"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle14}"
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "712109F4E4EDCE95"
+			subtitle: "{litv3.the_patreon.title16}"
+			tasks: [{
+				id: "2A6AF6C6D6966832"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle15}"
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "0BEB7BB3E14FEB9F"
+			subtitle: "{litv3.the_patreon.title17}"
+			tasks: [{
+				id: "11B41A0B43C1D24F"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle16}"
+			x: 5.0d
+			y: 7.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "15C2CB5A62FCC57F"
+			subtitle: "{litv3.the_patreon.title18}"
+			tasks: [{
+				id: "06269568B42D784A"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle17}"
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "55AD33688867A77A"
+			subtitle: "{litv3.the_patreon.title19}"
+			tasks: [{
+				id: "715D5E88FFBB8241"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle18}"
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "5EB87DD15008A2BC"
+			subtitle: "{litv3.the_patreon.title20}"
+			tasks: [{
+				id: "1E91DB34E8B0BDF5"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle19}"
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "5D71CE61633B465F"
+			subtitle: "{litv3.the_patreon.title21}"
+			tasks: [{
+				id: "71551D012D0DDA4D"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle20}"
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "476E7521CC3664AF"
+			subtitle: "{litv3.the_patreon.title22}"
+			tasks: [{
+				id: "21084CECA8B6CA3B"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle21}"
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "705828E686337303"
+			subtitle: "{litv3.the_patreon.title23}"
+			tasks: [{
+				id: "7512927D1875EA2F"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle22}"
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "761382786FD38B29"
+			subtitle: "{litv3.the_patreon.title24}"
+			tasks: [{
+				id: "46219D376862DB15"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle23}"
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "62F9EA9F48861646"
+			subtitle: "{litv3.the_patreon.title25}"
+			tasks: [{
+				id: "2FDBFCC7B9CCF9AE"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle24}"
+			x: 7.0d
+			y: 7.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "7E297A0D5B9E962C"
+			subtitle: "{litv3.the_patreon.title26}"
+			tasks: [{
+				id: "432E8BD51EF792F9"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle25}"
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "4D5F160D67D770B5"
+			subtitle: "{litv3.the_patreon.title27}"
+			tasks: [{
+				id: "0F4775E62C1AFE1E"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle26}"
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "60C77F218AFAA4C4"
+			subtitle: "{litv3.the_patreon.title28}"
+			tasks: [{
+				id: "148ED1860A4BCF8D"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle27}"
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "4904080DDE54E408"
+			subtitle: "{litv3.the_patreon.title29}"
+			tasks: [{
+				id: "37ABBF971A723FDE"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle28}"
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "730D6F2516AFB1ED"
+			subtitle: "{litv3.the_patreon.title30}"
+			tasks: [{
+				id: "5EEF24CA64B08D9D"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle29}"
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "16CFE75BBECF6CA3"
+			subtitle: "{litv3.the_patreon.title31}"
+			tasks: [{
+				id: "068EFED99F8A2FD9"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle30}"
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "43205D4080CAF031"
+			subtitle: "{litv3.the_patreon.title32}"
+			tasks: [{
+				id: "5877AE7506AFDA95"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle31}"
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "3099840D151BCB17"
+			subtitle: "{litv3.the_patreon.title33}"
+			tasks: [{
+				id: "42E167649ECF6D07"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle32}"
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "6CCFBAC4C55DF33E"
+			subtitle: "{litv3.the_patreon.title34}"
+			tasks: [{
+				id: "449A1DCF5E7C8DFC"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle33}"
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "5F98A7120BBE5DA0"
+			subtitle: "{litv3.the_patreon.title35}"
+			tasks: [{
+				id: "0E91D7307E5EF9EB"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle34}"
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "66EBDE1EC6D41B49"
+			subtitle: "{litv3.the_patreon.title36}"
+			tasks: [{
+				id: "19F8F31D895ADEC1"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle35}"
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "7EE1D1BA72A8A9A6"
+			subtitle: "{litv3.the_patreon.title37}"
+			tasks: [{
+				id: "50CA61EA6222A214"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle36}"
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "0337711F21AF23D6"
+			subtitle: "{litv3.the_patreon.title38}"
+			tasks: [{
+				id: "0B1E09CF67D45B39"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle37}"
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "693592D0CA716AC1"
+			subtitle: "{litv3.the_patreon.title39}"
+			tasks: [{
+				id: "541D338066FB7062"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle38}"
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "01F207AD42413091"
+			subtitle: "{litv3.the_patreon.title40}"
+			tasks: [{
+				id: "3ADF664607773889"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle39}"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "042C960AA4E6AF57"
+			subtitle: "{litv3.the_patreon.title41}"
+			tasks: [{
+				id: "25D6F89AD5F010B1"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle40}"
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "5084B348F6D179D4"
+			subtitle: "{litv3.the_patreon.title42}"
+			tasks: [{
+				id: "4C70954D18BD18BD"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle41}"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "6E87B0903702102E"
+			subtitle: "{litv3.the_patreon.title43}"
+			tasks: [{
+				id: "75CF40200F158CFF"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle42}"
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "3EE46153DCAD4244"
+			subtitle: "{litv3.the_patreon.title44}"
+			tasks: [{
+				id: "068D9535244A5B81"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle43}"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "40FF44A2BC424C2E"
+			subtitle: "{litv3.the_patreon.title45}"
+			tasks: [{
+				id: "6D08C0B076A7AB47"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle44}"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "3C1E818A9C62681F"
+			subtitle: "{litv3.the_patreon.title46}"
+			tasks: [{
+				id: "1F5C915BC4920792"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle45}"
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "0A325154F396046E"
+			subtitle: "{litv3.the_patreon.title47}"
+			tasks: [{
+				id: "2D2B9727F107A6D7"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle46}"
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "386474BB1618D0EF"
+			subtitle: "{litv3.the_patreon.title48}"
+			tasks: [{
+				id: "064440323BE2791D"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle47}"
+			x: 3.5d
+			y: 8.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "567EE5AFDD19E66B"
+			subtitle: "{litv3.the_patreon.title49}"
+			tasks: [{
+				id: "2E22F4E04AE92AFC"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle48}"
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "03C5D4F5854101AF"
+			subtitle: "{litv3.the_patreon.title50}"
+			tasks: [{
+				id: "27E48C6C12126F72"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle49}"
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "4AE3ABE212EFAB1C"
+			subtitle: "{litv3.the_patreon.title51}"
+			tasks: [{
+				id: "20E455919BDCA54E"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle50}"
+			x: 4.5d
+			y: 8.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "1D1C2451A64E1D05"
+			subtitle: "{litv3.the_patreon.title52}"
+			tasks: [{
+				id: "3BDDEA3C46B75E61"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle51}"
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "140A4F12D062B4DC"
+			subtitle: "{litv3.the_patreon.title53}"
+			tasks: [{
+				id: "29B354A1DFA611D0"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle52}"
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "47A106C842267DC9"
+			subtitle: "{litv3.the_patreon.title54}"
+			tasks: [{
+				id: "0AD7368A73C79EDA"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle53}"
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "2F686D805C40AF39"
+			subtitle: "{litv3.the_patreon.title55}"
+			tasks: [{
+				id: "105085787B7FB201"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle54}"
+			x: 1.5d
+			y: 8.5d
+		}
+		{
+			description: ["{litv3.the_patreon.description2}"]
+			icon: "kubejs:kruscle"
+			id: "285590EB3BB13B8D"
+			subtitle: "{litv3.the_patreon.title56}"
+			tasks: [{
+				id: "7C504A53699D49A8"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle55}"
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "52645EBAE1C2851A"
+			subtitle: "{litv3.the_patreon.title57}"
+			tasks: [{
+				id: "6D95C70C7856D7BE"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle56}"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "6D3F29EBCC319992"
+			subtitle: "{litv3.the_patreon.title58}"
+			tasks: [{
+				id: "7E95B42D85066DA4"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle57}"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "13ECC967B07FA1F6"
+			subtitle: "{litv3.the_patreon.title59}"
+			tasks: [{
+				id: "24BDCD430249A2F9"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle58}"
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "062D059B08A71BCC"
+			subtitle: "{litv3.the_patreon.title60}"
+			tasks: [{
+				id: "49E6AD87EB2B67FA"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle59}"
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "0D9B367A0D91866C"
+			subtitle: "{litv3.the_patreon.title61}"
+			tasks: [{
+				id: "5E232E24C14D7499"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle60}"
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "7103237FE21D8F19"
+			tasks: [{
+				id: "7671BE5DD1402D01"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.title62}"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "52E09C29ABE39934"
+			subtitle: "{litv3.the_patreon.title63}"
+			tasks: [{
+				id: "285FAC7E0C736A08"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle61}"
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "3FE39E3C3C8B1BDA"
+			subtitle: "{litv3.the_patreon.title64}"
+			tasks: [{
+				id: "3FCB3504A36042FB"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle62}"
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "2F84B5ACC0C9C192"
+			subtitle: "{litv3.the_patreon.title65}"
+			tasks: [{
+				id: "5013AB52A443F2A9"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle63}"
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "07222DB567CA55F8"
+			subtitle: "{litv3.the_patreon.title66}"
+			tasks: [{
+				id: "072C69FBDA3410AB"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle64}"
+			x: 8.0d
+			y: 5.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "2E890105C16039B5"
+			subtitle: "{litv3.the_patreon.title67}"
+			tasks: [{
+				id: "6147998106323E9A"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle65}"
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "5BF9C445DD6FE067"
+			subtitle: "{litv3.the_patreon.title68}"
+			tasks: [{
+				id: "179AAAEB0BF20C41"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle66}"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "595E2637F6B7C8BC"
+			subtitle: "{litv3.the_patreon.title69}"
+			tasks: [{
+				id: "08577C61DFD367DF"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle67}"
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "22E9028C3AEC069E"
+			subtitle: "{litv3.the_patreon.title70}"
+			tasks: [{
+				id: "358C81A44C156D5D"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle68}"
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "70A8E1C00447AE37"
+			subtitle: "{litv3.the_patreon.title71}"
+			tasks: [{
+				id: "6C7896B2B7D733F2"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle69}"
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "5F54C64200BBE99D"
+			subtitle: "{litv3.the_patreon.title72}"
+			tasks: [{
+				id: "47F6263F9543029C"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle70}"
+			x: 6.0d
+			y: 5.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "794C3459273F6235"
+			subtitle: "{litv3.the_patreon.title73}"
+			tasks: [{
+				id: "41A1E2A22341E329"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle71}"
+			x: 5.5d
+			y: 6.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "334521BA002E5149"
+			subtitle: "{litv3.the_patreon.title74}"
+			tasks: [{
+				id: "4DE336BC3BC6B8F6"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle72}"
+			x: 7.0d
+			y: 5.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "696A13265EFAFCED"
+			subtitle: "{litv3.the_patreon.title75}"
+			tasks: [{
+				id: "03904D517CA09E44"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle73}"
+			x: 6.5d
+			y: 6.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "6A3674E61DF6C9EC"
+			subtitle: "{litv3.the_patreon.title76}"
+			tasks: [{
+				id: "7349F54F0644B727"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle74}"
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "2D8F32D6AB1CC70C"
+			subtitle: "{litv3.the_patreon.title77}"
+			tasks: [{
+				id: "5A641804F3BDC7DC"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle75}"
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "6649709BE0F2DED0"
+			subtitle: "{litv3.the_patreon.title78}"
+			tasks: [{
+				id: "010F023B6A739D18"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle76}"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "78648AB59A26D021"
+			subtitle: "{litv3.the_patreon.title79}"
+			tasks: [{
+				id: "1BFB402CC46DBEEB"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle77}"
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "5237D06E3D66295A"
+			subtitle: "{litv3.the_patreon.title80}"
+			tasks: [{
+				id: "75EDD34B71BD6835"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle78}"
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "5BB24755FAC53C57"
+			subtitle: "{litv3.the_patreon.title81}"
+			tasks: [{
+				id: "07B2AB2E967B7715"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle79}"
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "6940795A435139CA"
+			subtitle: "{litv3.the_patreon.title82}"
+			tasks: [{
+				id: "4419E84DE3BB3D6A"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle80}"
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "4409607E5ECE889B"
+			subtitle: "{litv3.the_patreon.title83}"
+			tasks: [{
+				id: "6C5A7F0CE39434D5"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle81}"
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "542201E114DADBC4"
+			subtitle: "{litv3.the_patreon.title84}"
+			tasks: [{
+				id: "70E9257D3A1ECBDA"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle82}"
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "3A6E07D3F685ECFB"
+			subtitle: "{litv3.the_patreon.title85}"
+			tasks: [{
+				id: "01EDCB4640C00E70"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle83}"
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "47EAE70F36156B36"
+			subtitle: "{litv3.the_patreon.title86}"
+			tasks: [{
+				id: "5600EE4B5B8E5A47"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle84}"
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "01CD63A2B88963D2"
+			subtitle: "{litv3.the_patreon.title87}"
+			tasks: [{
+				id: "1EA89AFFA4BF0179"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle85}"
+			x: 7.5d
+			y: 6.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "39BBAE1215140EB8"
+			subtitle: "{litv3.the_patreon.title88}"
+			tasks: [{
+				id: "780589F17B9767EA"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle86}"
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "0D83F9AC6BB558B2"
+			subtitle: "{litv3.the_patreon.title89}"
+			tasks: [{
+				id: "6E4BAB1B579A436E"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle87}"
+			x: 8.5d
+			y: 4.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "3425610A1790A0EB"
+			subtitle: "{litv3.the_patreon.title90}"
+			tasks: [{
+				id: "536C92C9449D60CD"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle88}"
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "03F1E10027789CC0"
+			subtitle: "{litv3.the_patreon.title91}"
+			tasks: [{
+				id: "46BAE1A9C9062D25"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle89}"
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "6E3BF4D777FCAC8D"
+			subtitle: "{litv3.the_patreon.title92}"
+			tasks: [{
+				id: "6030AD6289D63B1D"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle90}"
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "044C9B570689C860"
+			subtitle: "{litv3.the_patreon.title93}"
+			tasks: [{
+				id: "52AEFA8FFF1D3E43"
+				title: "{litv3.the_patreon.subtitle91}"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"{litv3.the_patreon.description3}"
+				""
+				"{litv3.the_patreon.description4}"
+			]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:enchanted_golden_apple"
+			}
+			id: "5D04D87B47AD5904"
+			rewards: [{
+				id: "4BE326E74D7815B9"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			subtitle: "{litv3.the_patreon.subtitle92}"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "3A2170CA50CDF17C"
+				title: "{litv3.the_patreon.title94}"
+				type: "dimension"
+			}]
+			title: "{litv3.the_patreon.title95}"
+			x: 6.5d
+			y: 8.5d
+		}
+		{
+			description: ["{litv3.the_patreon.description5}"]
+			icon: "minecraft:emerald"
+			id: "5A1E90887BE1659F"
+			subtitle: "{litv3.the_patreon.subtitle93}"
+			tasks: [{
+				id: "23DE3624A3745F48"
+				title: "{litv3.the_patreon.title96}"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "51F7B2C0734345C4"
+			subtitle: "{litv3.the_patreon.title97}"
+			tasks: [{
+				id: "340BF5B25D8287FF"
+				title: "{litv3.the_patreon.subtitle94}"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "7BD9D7EA370F8D6B"
+			subtitle: "{litv3.the_patreon.title99}"
+			tasks: [{
+				id: "6C2095EDF7A733C7"
+				title: "{litv3.the_patreon.title98}"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.subtitle95}"
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:fox"
+			}
+			id: "5DF3F68E29D5C655"
+			subtitle: "{litv3.the_patreon.subtitle96}"
+			tasks: [{
+				id: "3CDA814BB547247B"
+				title: "{litv3.the_patreon.title100}"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: 6.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "6C9000391CDFF32E"
+			subtitle: "{litv3.the_patreon.title101}"
+			tasks: [{
+				id: "060E1F6522341C8C"
+				title: "{litv3.the_patreon.subtitle97}"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 8.5d
+		}
+		{
+			description: ["{litv3.the_patreon.description6}"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:plua"
+			}
+			id: "6801EDB2AF4454C5"
+			subtitle: "{litv3.the_patreon.subtitle98}"
+			tasks: [{
+				id: "12B62EF818C63F0E"
+				title: "{litv3.the_patreon.title102}"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "354E1A270A1B542D"
+			subtitle: "{litv3.the_patreon.subtitle99}"
+			tasks: [{
+				id: "46412B12332478F5"
+				title: "{litv3.the_patreon.title103}"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 8.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "0C5C9CF0A70D67AE"
+			tasks: [{
+				id: "6F80750535DFA4E4"
+				title: "{litv3.the_patreon.title104}"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "22FF2639018F1A1F"
+			tasks: [{
+				id: "17BD8AB1638ACB9C"
+				title: "{litv3.the_patreon.title105}"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 5.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "0D45FB56E1E841A0"
+			tasks: [{
+				id: "2CDAAE7E674BDA38"
+				title: "{litv3.the_patreon.title106}"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "1FF6D6E8B20D60FC"
+			tasks: [{
+				id: "38AE823C46707D3B"
+				title: "{litv3.the_patreon.title107}"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 6.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "67D20FB73221114D"
+			tasks: [{
+				id: "1F1A096D75C21217"
+				title: "{litv3.the_patreon.title108}"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "715EC0B05B21F1EC"
+			tasks: [{
+				id: "095854D96F5F4EDA"
+				title: "{litv3.the_patreon.title109}"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "676EF90F639CF353"
+			tasks: [{
+				id: "7E285F011F38B5E7"
+				title: "{litv3.the_patreon.title110}"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "60304099F60C3F83"
+			tasks: [{
+				id: "7F40E622200D5828"
+				title: "{litv3.the_patreon.title111}"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "2B1F5F13B512CFC5"
+			tasks: [{
+				id: "39670BF4F851A423"
+				title: "{litv3.the_patreon.title112}"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "04F8B5CAB3C241A7"
+			tasks: [{
+				id: "052B27570A20542F"
+				title: "{litv3.the_patreon.title113}"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "016B3B633C0B6010"
+			tasks: [{
+				id: "0C9B367E4B54F278"
+				title: "{litv3.the_patreon.title114}"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "741D5E567D79E91C"
+			tasks: [{
+				id: "7CAB777076194D6A"
+				title: "{litv3.the_patreon.title115}"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			description: ["{litv3.the_patreon.description7}"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:crankonator"
+			}
+			id: "51A9C5DF16F74442"
+			subtitle: "{litv3.the_patreon.subtitle100}"
+			tasks: [{
+				id: "07B07CFEF433DE44"
+				title: "{litv3.the_patreon.title116}"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "7A610325B38FBDCE"
+			subtitle: "{litv3.the_patreon.title117}"
+			tasks: [{
+				id: "5B65CA1C06A8EF0D"
+				title: "{litv3.the_patreon.subtitle101}"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "3AF1069E54F944B6"
+			subtitle: "{litv3.the_patreon.title118}"
+			tasks: [{
+				id: "2A7F5CA1375FA2FC"
+				title: "{litv3.the_patreon.subtitle102}"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			description: ["{litv3.the_patreon.description8}"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:lexileexx"
+			}
+			id: "2D87E1015058C944"
+			subtitle: "{litv3.the_patreon.subtitle103}"
+			tasks: [{
+				id: "639BCE6C6A9156BE"
+				title: "{litv3.the_patreon.title119}"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "artifacts:crystal_heart"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "52D817A61031B5F0"
+			subtitle: "{litv3.the_patreon.subtitle104}"
+			tasks: [{
+				id: "390ADC8F3A646107"
+				title: "{litv3.the_patreon.title120}"
+				type: "checkmark"
+			}]
+			title: "{litv3.the_patreon.title121}"
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "141EEC330A3F5028"
+			subtitle: "{litv3.the_patreon.title122}"
+			tasks: [{
+				id: "5153094DA06FF7B3"
+				title: "{litv3.the_patreon.subtitle105}"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 8.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "6B6E69AC2E75E343"
+			subtitle: "{litv3.the_patreon.title123}"
+			tasks: [{
+				id: "2FAA8F967A0B2983"
+				title: "{litv3.the_patreon.subtitle106}"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 8.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "6679BB9E85C0D451"
+			subtitle: "{litv3.the_patreon.title124}"
+			tasks: [{
+				id: "76EB48B03AD9F8E7"
+				title: "{litv3.the_patreon.subtitle107}"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 7.5d
+		}
+	]
+	title: "{litv3.the_patreon.title125}"
+}

@@ -1,0 +1,1043 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "pathfinder"
+	group: "2280ECB310C79FE3"
+	icon: "supplementaries:globe"
+	id: "66690CB79DA211EF"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 8.0d
+		hover: [ ]
+		image: "litv3:textures/misc/earth.png"
+		rotation: 0.0d
+		width: 8.0d
+		x: 0.0d
+		y: -0.5d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{litv3.pathfinder.description0}"
+				"{litv3.pathfinder.description1}"
+			]
+			icon: "supplementaries:key"
+			id: "2DADDB2315AB67D6"
+			rewards: [{
+				id: "213653105613DC54"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "{litv3.pathfinder.subtitle0}"
+			tasks: [{
+				id: "3F1DED87066891FA"
+				title: "{litv3.pathfinder.title0}"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			id: "4F20540765A93D77"
+			rewards: [
+				{
+					id: "217C6419541FDBB9"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0E004A7DDD593DE6"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "2C7F6589644B55CA"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{litv3.pathfinder.subtitle1}"
+			tasks: [{
+				advancement: "idas:ancient_mines"
+				criterion: ""
+				id: "7B81785A915B6A7F"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			id: "24975F8795218934"
+			rewards: [
+				{
+					id: "72CC37E960A91B7F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "1106BCE25CE8F564"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "13CAECC2E461426B"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "idas:enchantingtower"
+				criterion: ""
+				id: "2D54AE47A2678D34"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			id: "58BFD3C77C4D1AC6"
+			rewards: [
+				{
+					id: "53373862F4FB41DC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "44E52017DBF9B7ED"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "3DB5BE55D5726842"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "idas:bearclaw_inn"
+				criterion: ""
+				id: "1FD6AFD394AEB398"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			id: "5954871D011EA31B"
+			rewards: [
+				{
+					id: "2A1742850A3FB63B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "2FF099DE7A877C7D"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "11B1A14541218B40"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{litv3.pathfinder.subtitle2}"
+			tasks: [{
+				advancement: "betterdungeons:spider_dungeon"
+				criterion: ""
+				id: "1D501E3BD17DD079"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			id: "028BAD294AD040AF"
+			rewards: [
+				{
+					id: "38CDB8A3C2D7C0B8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "289267781D81F804"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "78179F57FE2BE1C0"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{litv3.pathfinder.subtitle3}"
+			tasks: [{
+				advancement: "betterdungeons:zombie_dungeon"
+				criterion: ""
+				id: "35AD77BC9FF9119A"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			id: "2FF97DE5D1B0F727"
+			rewards: [
+				{
+					id: "7B721698CF021DF2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6A6DB74DE59F0580"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "082B77DC121151AD"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{litv3.pathfinder.subtitle4}"
+			tasks: [{
+				advancement: "betterdungeons:skeleton_dungeon"
+				criterion: ""
+				id: "19375711FD111567"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "3C6CA584F934B8B9"
+			rewards: [
+				{
+					id: "22C9765AF1C14A31"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "069044A06C605DA9"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "45B656A21D9B75E0"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{litv3.pathfinder.subtitle5}"
+			tasks: [{
+				advancement: "betterdungeons:small_dungeon"
+				criterion: ""
+				id: "1F0BFB0430425384"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			id: "1C6EB956684D3209"
+			rewards: [
+				{
+					id: "7B28C0122611DCBE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "305A222C0288C6E2"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "5317525AD75B45AB"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "idas:witches_treestump"
+				criterion: ""
+				id: "3533A980E4933C2D"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			id: "40822E5624735C13"
+			rewards: [
+				{
+					id: "6C9358C5967C30DE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "34895188FCFE3BD6"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "3F90EFFE254BD441"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "idas:wizardtower"
+				criterion: ""
+				id: "68D52A350D5DB36D"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			id: "134BE651109B1400"
+			rewards: [
+				{
+					id: "1E632A5DD5DBD137"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "752CE3D1F632D6F6"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "219E7C93F565CBB5"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "idas:sunken_ship"
+				criterion: ""
+				id: "1714231BC1DD7644"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: -6.5d
+		}
+		{
+			id: "290A2645FBD90100"
+			rewards: [
+				{
+					id: "637657F2480AC8AE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "13A351CF46AE8B49"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "4EBE74A89F6E0C71"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{litv3.pathfinder.subtitle6}"
+			tasks: [{
+				advancement: "repurposed_structures:city_overworld"
+				criterion: ""
+				id: "1974F6593F122F0A"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			id: "174122AEDDBE021E"
+			rewards: [
+				{
+					id: "3E82695E10FB6BD1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "020A096057CA5A0C"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "375A7A55232D6E2F"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "idas:labyrinth"
+				criterion: ""
+				id: "4A068189A168ED81"
+				type: "advancement"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			id: "7853F4333CEA424A"
+			rewards: [
+				{
+					id: "6732B2BE0127F2D5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6296921EC78C1AE6"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "3374322ED3AE7CBB"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{litv3.pathfinder.subtitle7}"
+			tasks: [{
+				advancement: "idas:castle"
+				criterion: ""
+				id: "37F30C1A60C5BC67"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			id: "2CD398B43AEFF428"
+			rewards: [
+				{
+					id: "69443C42DDA1FEE2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "785F90644C60568D"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "1F8D7814CA330C6D"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "idas:hunters_cabin"
+				criterion: ""
+				id: "1D4C58E79B9D6404"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			id: "689E731ECC22F152"
+			rewards: [
+				{
+					id: "2459F0A2B5AAC13D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "123FDA2BC5564F97"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "6BE43584E404EFE1"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{litv3.pathfinder.subtitle8}"
+			tasks: [{
+				advancement: "repurposed_structures:mineshafts"
+				criterion: ""
+				id: "20768D8E6F19533A"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			id: "5DD1A32CAD544DCC"
+			rewards: [
+				{
+					id: "3CBCE1269010266B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7AA99964597A2CD6"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "3FF252C391887B74"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{litv3.pathfinder.subtitle9}"
+			tasks: [{
+				advancement: "idas:pillager_fortress"
+				criterion: ""
+				id: "4A1BDAEFF8AC3CF8"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			id: "337BABA052DA1E0E"
+			rewards: [
+				{
+					id: "4705F68BF77C6CBA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "472830A1EBC3592D"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "476BB742A901D839"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{litv3.pathfinder.subtitle10}"
+			tasks: [{
+				advancement: "repurposed_structures:villages"
+				criterion: ""
+				id: "1EF98D4A90EA9BB5"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			id: "145F74705341F30E"
+			rewards: [
+				{
+					id: "5B2F71216B31DAE5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "59BB6257FADC9182"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "047E74B6C234003F"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{litv3.pathfinder.subtitle11}"
+			tasks: [{
+				advancement: "repurposed_structures:outposts"
+				criterion: ""
+				id: "0358569F8DCB2703"
+				type: "advancement"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			id: "674C4F6C629090C7"
+			rewards: [
+				{
+					id: "75D12F150E85BB3F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "45464F4FE949AD74"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "34000BBF598A8E5E"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{litv3.pathfinder.subtitle12}"
+			tasks: [{
+				advancement: "repurposed_structures:city_nether"
+				criterion: ""
+				id: "5556E908ECF2D79A"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			id: "0E132FABA501393B"
+			rewards: [
+				{
+					id: "6382634AB46B01D0"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "5290AAA5B6234B31"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "14760A5D7352CC64"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{litv3.pathfinder.subtitle13}"
+			tasks: [{
+				advancement: "repurposed_structures:fortress_jungle"
+				criterion: ""
+				id: "3C1E0553A3F0F7C6"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			id: "7DE3544787B49D46"
+			rewards: [
+				{
+					id: "59B486060019D995"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "3272F61D5ECBC68D"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "0EF86D0632411757"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{litv3.pathfinder.subtitle14}"
+			tasks: [{
+				advancement: "repurposed_structures:bastion_underground"
+				criterion: ""
+				id: "0CCE25B115509756"
+				type: "advancement"
+			}]
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			id: "6848C93746CC1FC0"
+			rewards: [
+				{
+					id: "2768BD5FF43A5CCA"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "22B8E980B43AE487"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "{litv3.pathfinder.subtitle15}"
+			tasks: [{
+				advancement: "takesapillage:pillager_camp"
+				criterion: ""
+				id: "6543D27A26C0B9EB"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			id: "4BCA960017B0992C"
+			rewards: [
+				{
+					id: "4E01993DAFC4C371"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "582457F027FF9D53"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "{litv3.pathfinder.subtitle16}"
+			tasks: [{
+				advancement: "takesapillage:bastille"
+				criterion: ""
+				id: "2B9E2AC9EDA5E69A"
+				type: "advancement"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			id: "360A14ED6EBA64D4"
+			rewards: [
+				{
+					id: "3D3BC43C1AF0E0D9"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+				{
+					id: "590733C07B00AD6D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "547D134A5B6E5577"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "rare_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{litv3.pathfinder.subtitle17}"
+			tasks: [{
+				advancement: "minecraft:adventure/adventuring_time"
+				criterion: ""
+				id: "0D817B9D696B05AA"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			id: "6E0F6DFA958172F8"
+			rewards: [
+				{
+					id: "5CF21A7ADA8D576F"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "314012A1F1608FDC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				advancement: "idas:nexus"
+				criterion: ""
+				id: "1D2F17ACB664AFC7"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			id: "2BFF62DE2B1CE10C"
+			rewards: [
+				{
+					id: "29F0D455A6BA12D8"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "29BFFFF1F6FEAD60"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				advancement: "idas:apothecary_abode"
+				criterion: ""
+				id: "1A78566257294BB7"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			id: "392C1055DFA53518"
+			rewards: [
+				{
+					id: "321F528EE1254797"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "1125551AD7A9F45F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				advancement: "idas:redhorn_guild"
+				criterion: ""
+				id: "67AF29C1C7F509F5"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			id: "0292B5904A252DC8"
+			rewards: [
+				{
+					id: "0C0927802BD3DAE5"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "2C971478FE9D7688"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				advancement: "idas:ruins_of_the_deep"
+				criterion: ""
+				id: "64ECB5471837B045"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			id: "3E13C8F0EE2ECCA2"
+			rewards: [
+				{
+					id: "68799541023FD079"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "27C72E74292C5F15"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				advancement: "idas:necromancers_spire"
+				criterion: ""
+				id: "369F0A82DECEBBE8"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			id: "1A19338C58738423"
+			rewards: [
+				{
+					id: "050EC6648BCFBD4D"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "0758F0CEC48DA064"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				advancement: "idas:winter_wagon"
+				criterion: ""
+				id: "7F580B20F36EF103"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			id: "725867AD010248A6"
+			rewards: [
+				{
+					id: "254539A5C822CC61"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "2C3C446828BDDF64"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				advancement: "idas:fishermans_lodge"
+				criterion: ""
+				id: "1C1E8952D30A0DBB"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			id: "6D7846F53919A4D9"
+			rewards: [
+				{
+					id: "700EC19389C4CEAD"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "23F0CA85D98CF337"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				advancement: "idas:tinkers_workshop"
+				criterion: ""
+				id: "40B9D329DA3A4E7C"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+	]
+	title: "{litv3.pathfinder.title1}"
+}

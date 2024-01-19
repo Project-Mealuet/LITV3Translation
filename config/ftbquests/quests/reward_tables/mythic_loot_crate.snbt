@@ -1,0 +1,16 @@
+{
+	id: "3D548FB82AF8A38A"
+	loot_crate: {
+		color: 16729271
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "mythic_loot_crate"
+	}
+	loot_size: 1
+	order_index: 11
+	rewards: [ ]
+	title: "神秘战利品箱"
+}

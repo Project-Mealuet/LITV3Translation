@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "beautify:rope"
+    },
+    "title": "你会打结吗？",
+    "description": "将线绑在一起，形成绳索",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "beautify:progression/root",
+  "criteria": {
+    "obtain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "beautify:rope"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

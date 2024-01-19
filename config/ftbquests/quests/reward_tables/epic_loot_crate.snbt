@@ -1,0 +1,115 @@
+{
+	id: "3A00AA024D71440E"
+	loot_crate: {
+		color: 12664063
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "史诗战利品箱"
+		string_id: "epic_loot_crate"
+	}
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "ores_4"
+				}
+			}
+			title: "矿石种类4"
+			weight: 50.0f
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "junk_4"
+				}
+			}
+			title: "垃圾种类4"
+			weight: 10.0f
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "food_4"
+				}
+			}
+			title: "食物种类4"
+			weight: 30.0f
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "vanilla_materials_4"
+				}
+			}
+			title: "原版材料种类4"
+			weight: 30.0f
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "enchanted_books_4"
+				}
+			}
+			title: "附魔物品"
+			weight: 70.0f
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "spawn_eggs_3"
+				}
+			}
+			title: "刷怪蛋种类3"
+			weight: 80.0f
+		}
+	]
+	title: "史诗战利品箱"
+	use_title: true
+}

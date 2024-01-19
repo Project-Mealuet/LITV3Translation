@@ -1,0 +1,115 @@
+{
+	id: "41B3133EE4B82E1A"
+	loot_crate: {
+		color: 12895428
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "普通战利品箱"
+		string_id: "common_loot_crate"
+	}
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "logs"
+				}
+			}
+			title: "原木"
+			weight: 6.0f
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "vanilla_food"
+				}
+			}
+			title: "食物"
+			weight: 4.0f
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "vanilla_materials"
+				}
+			}
+			title: "材料"
+			weight: 6.0f
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "filler_blocks"
+				}
+			}
+			title: "方块"
+			weight: 6.0f
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "planks"
+				}
+			}
+			title: "木板"
+			weight: 6.0f
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "duds1"
+				}
+			}
+			title: "垃圾"
+			weight: 4.0f
+		}
+	]
+	title: "普通战利品箱"
+	use_title: true
+}

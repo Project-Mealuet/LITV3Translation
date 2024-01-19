@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "beautify:oak_blinds"
+    },
+    "title": "被光闪瞎",
+    "description": "制作百叶窗来过滤光线",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "beautify:progression/root",
+  "criteria": {
+    "obtain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "beautify:oak_blinds",
+              "beautify:spruce_blinds",
+              "beautify:dark_oak_blinds",
+              "beautify:birch_blinds",
+              "beautify:acacia_blinds",
+              "beautify:jungle_blinds",
+              "beautify:warped_blinds",
+              "beautify:crimson_blinds",
+              "beautify:iron_blinds",
+              "beautify:mangrove_blinds"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

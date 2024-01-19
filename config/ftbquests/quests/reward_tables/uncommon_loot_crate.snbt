@@ -1,0 +1,130 @@
+{
+	id: "4F98A2D03CE849CC"
+	loot_crate: {
+		color: 56450
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "罕见战利品箱"
+		string_id: "uncommon_loot_crate"
+	}
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "duds2"
+				}
+			}
+			title: "垃圾种类2"
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "passive_spawn_eggs"
+				}
+			}
+			title: "刷怪蛋"
+			weight: 10.0f
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "vanilla_materials_2"
+				}
+			}
+			title: "材料种类2"
+			weight: 8.0f
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "vanilla_food_2"
+				}
+			}
+			title: "食物种类2"
+			weight: 8.0f
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "ores_2"
+				}
+			}
+			title: "矿石种类2"
+			weight: 10.0f
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "hat_crate"
+				}
+			}
+			title: "帽子箱"
+			weight: 5.0f
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "aquaculture:treasure_chest"
+			}
+			weight: 5.0f
+		}
+		{ item: "waystones:waystone" }
+		{ item: "waystones:warp_plate" }
+		{ item: "waystones:sharestone" }
+	]
+	title: "罕见战利品箱"
+	use_title: true
+}

@@ -1,0 +1,116 @@
+{
+	id: "13D32E1B91340CA1"
+	loot_crate: {
+		color: 3048191
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "稀有战利品箱"
+		string_id: "rare_loot_crate"
+	}
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{
+			count: 16
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "aquaculture:lockbox"
+			}
+			weight: 2.0f
+		}
+		{ count: 4, item: "aquaculture:treasure_chest", weight: 5.0f }
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "ores_3"
+				}
+			}
+			title: "矿石种类3"
+			weight: 3.0f
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "materials_3"
+				}
+			}
+			title: "材料种类3"
+			weight: 15.0f
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "junk_3"
+				}
+			}
+			title: "垃圾种类3"
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "vanilla_food_3"
+				}
+			}
+			title: "食物种类3"
+			weight: 4.0f
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "spawn_eggs_2"
+				}
+			}
+			title: "刷怪蛋种类2"
+			weight: 15.0f
+		}
+		{ item: "waystones:waystone" }
+		{ item: "waystones:mossy_waystone" }
+		{ count: 2, item: "waystones:sharestone" }
+		{ count: 2, item: "waystones:warp_plate" }
+	]
+	title: "稀有战利品箱"
+	use_title: true
+}

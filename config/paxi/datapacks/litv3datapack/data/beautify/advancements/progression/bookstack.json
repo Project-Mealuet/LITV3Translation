@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "beautify:bookstack"
+    },
+    "title": "无架子组织",
+    "description": "谁需要书架？制作一个书堆",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "beautify:progression/root",
+  "criteria": {
+    "obtain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "beautify:bookstack"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

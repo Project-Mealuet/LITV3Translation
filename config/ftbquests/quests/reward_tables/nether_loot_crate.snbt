@@ -1,0 +1,81 @@
+{
+	icon: "minecraft:netherrack"
+	id: "06D97134E53F8B2D"
+	loot_crate: {
+		color: 13713467
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "下界战利品箱"
+		string_id: "nether_loot_crate"
+	}
+	loot_size: 1
+	order_index: 27
+	rewards: [
+		{ item: "minecraft:golden_apple" }
+		{ count: 2, item: "minecraft:obsidian" }
+		{ count: 16, item: "minecraft:experience_bottle" }
+		{ count: 64, item: "minecraft:netherrack" }
+		{ count: 32, item: "minecraft:nether_bricks" }
+		{ count: 16, item: "minecraft:quartz" }
+		{ count: 32, item: "minecraft:soul_sand" }
+		{ item: "minecraft:netherite_scrap" }
+		{ item: "minecraft:nether_wart" }
+		{ count: 32, item: "quark:blue_nether_bricks" }
+		{ count: 64, item: "quark:netherrack_bricks" }
+		{ count: 32, item: "minecraft:soul_soil" }
+		{ count: 32, item: "quark:soul_sandstone" }
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:potion"
+				tag: {
+					Potion: "alexsmobs:strong_soulsteal"
+				}
+			}
+		}
+		{ count: 32, item: "minecraft:crimson_stem" }
+		{ count: 32, item: "minecraft:warped_stem" }
+		{ count: 32, item: "minecraft:red_nether_bricks" }
+		{ count: 32, item: "minecraft:blackstone" }
+		{ count: 16, item: "minecraft:glowstone_dust" }
+		{ count: 16, item: "minecraft:gold_nugget" }
+		{ count: 2, item: "minecraft:blaze_rod" }
+		{ count: 4, item: "minecraft:magma_cream" }
+		{ count: 2, item: "minecraft:ghast_tear" }
+		{ item: "minecraft:magma_block" }
+		{ count: 32, item: "minecraft:basalt" }
+		{ item: "kubejs:copper_coin" }
+		{
+			item: {
+				Count: 1b
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "common_loot_crate"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "random_dyes"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "random_mob_drops"
+				}
+			}
+		}
+	]
+	title: "下界战利品箱"
+	use_title: true
+}

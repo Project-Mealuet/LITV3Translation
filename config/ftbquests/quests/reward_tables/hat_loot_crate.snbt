@@ -1,0 +1,136 @@
+{
+	id: "6A09F90178C270D4"
+	loot_crate: {
+		color: 10376305
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "帽子战利品箱"
+		string_id: "hat_loot_crate"
+	}
+	loot_size: 1
+	order_index: 14
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "usefulhats:wing_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "usefulhats:straw_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "usefulhats:stocking_cap"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "usefulhats:shulker_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "usefulhats:postman_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "usefulhats:aquanaut_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "usefulhats:bunny_ears"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "usefulhats:chopping_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "usefulhats:ender_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "usefulhats:halo"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "usefulhats:lucky_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "usefulhats:mining_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "usefulhats:mushroom_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "帽子战利品箱"
+	use_title: true
+}

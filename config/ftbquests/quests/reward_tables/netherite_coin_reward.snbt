@@ -1,0 +1,21 @@
+{
+	id: "780A6CFC2F1EFBE6"
+	loot_size: 1
+	order_index: 19
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "legendary_loot_crate"
+				}
+			}
+		}
+		{ count: 3, item: "kubejs:diamond_coin" }
+		{ item: "minecraft:netherite_ingot" }
+		{ count: 15, item: "randomite:randomite_ore" }
+		{ item: "minecraft:totem_of_undying" }
+	]
+	title: "下界合金战利品箱"
+}

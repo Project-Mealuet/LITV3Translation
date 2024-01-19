@@ -1,0 +1,64 @@
+{
+	id: "0BC9EE62BBE93C0A"
+	loot_size: 1
+	order_index: 18
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "epic_loot_crate"
+				}
+			}
+		}
+		{ count: 3, item: "kubejs:gold_coin" }
+		{ item: "minecraft:diamond_ore" }
+		{ item: "minecraft:emerald_ore" }
+		{ item: "minecraft:mooshroom_spawn_egg" }
+		{ item: "minecraft:villager_spawn_egg" }
+		{ count: 10, item: "kubejs:iron_coin" }
+		{ count: 3, item: "minecraft:emerald" }
+		{ count: 3, item: "minecraft:diamond" }
+		{ item: "minecraft:totem_of_undying" }
+		{ item: "aquaculture:neptunium_ingot" }
+		{ count: 10, item: "randomite:randomite_ore" }
+		{
+			item: {
+				Count: 1b
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "hat_loot_crate"
+				}
+			}
+		}
+		{ item: "simplehats:hatbag_epic" }
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"maledicta:energy_collector": {
+						energy: 0.0d
+						processes: 0
+					}
+				}
+				id: "waystones:warp_stone"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "gag:sacred_balm" }
+		{
+			item: {
+				Count: 1b
+				id: "gag:time_sand_pouch"
+				tag: { }
+			}
+		}
+		{ item: "collectorsalbum:common_card_package" }
+		{ item: "collectorsalbum:uncommon_card_package" }
+		{ count: 3, item: "create:experience_block" }
+	]
+	title: "钻石币奖励"
+}

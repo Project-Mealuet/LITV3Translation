@@ -1,0 +1,51 @@
+{
+	hide_tooltip: true
+	id: "3931E53FF85F6579"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		string_id: "materials_random"
+	}
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ item: "minecraft:iron_ingot" }
+		{ count: 6, item: "minecraft:flint" }
+		{ count: 8, item: "minecraft:stick" }
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:long_regeneration"
+				}
+			}
+		}
+		{ item: "randomite:randomite_ore" }
+		{ item: "atum:coin_dirty" }
+		{ item: "atum:coin_gold" }
+		{ item: "minecraft:gunpowder" }
+		{ item: "minecraft:diamond" }
+		{ item: "minecraft:water_bucket" }
+		{ count: 3, item: "minecraft:paper" }
+		{ count: 19, item: "minecraft:clay_ball" }
+		{ count: 5, item: "minecraft:sugar" }
+		{ item: "aquaculture:box" }
+		{ item: "aquaculture:lockbox" }
+		{ count: 2, item: "minecraft:ender_pearl" }
+		{ count: 16, item: "minecraft:gold_nugget" }
+		{ count: 3, item: "minecraft:coal" }
+		{ item: "minecraft:netherite_scrap" }
+		{ count: 15, item: "minecraft:brick" }
+		{ item: "aquaculture:treasure_chest" }
+		{ item: "ars_nouveau:magic_clay" }
+		{ count: 4, item: "ars_nouveau:mana_gem" }
+	]
+	title: "随机材料"
+	use_title: true
+}

@@ -1,0 +1,1535 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "playtime_rewards"
+	group: ""
+	icon: "minecraft:clock"
+	id: "404759A0E34F8ABB"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["{litv3.playtime_rewards.description0}"]
+			id: "7361476FF42D2910"
+			rewards: [
+				{
+					id: "351DC02FE231FB6F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 32
+					id: "35ADC397F95F2AA4"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			tasks: [{
+				days: 5
+				id: "6E363C8F90BE423B"
+				type: "questsadditions:days"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7361476FF42D2910"]
+			description: ["{litv3.playtime_rewards.description1}"]
+			hide: true
+			hide_dependency_lines: false
+			hide_text_until_complete: true
+			id: "6FC89177F5DA0A34"
+			rewards: [
+				{
+					id: "50486A65028BEB4E"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "27A437AA139BD250"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				days: 10
+				id: "2B5C883D66088EA4"
+				type: "questsadditions:days"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6FC89177F5DA0A34"]
+			description: ["{litv3.playtime_rewards.description2}"]
+			hide: true
+			hide_text_until_complete: true
+			id: "77FF20E44CAA5BDB"
+			rewards: [
+				{
+					id: "1FDB9663E058DD69"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "78B81341A1B59E5C"
+					item: "aquaculture:lockbox"
+					type: "item"
+				}
+				{
+					id: "5FD39B232C36C0FE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				days: 15
+				id: "4CFEE617D4A5AEA6"
+				type: "questsadditions:days"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["77FF20E44CAA5BDB"]
+			description: ["{litv3.playtime_rewards.description3}"]
+			hide: true
+			hide_text_until_complete: true
+			id: "63370203DE635527"
+			rewards: [
+				{
+					id: "472DAB98E8E1247E"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "3341A881DE4D731C"
+					item: "aquaculture:lockbox"
+					type: "item"
+				}
+				{
+					id: "617F3F5DA1564728"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				days: 20
+				id: "76DEC046FFAB78E0"
+				type: "questsadditions:days"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["63370203DE635527"]
+			description: [
+				"{litv3.playtime_rewards.description4}"
+				"{litv3.playtime_rewards.description5}"
+			]
+			hide: true
+			hide_text_until_complete: true
+			id: "27937757D1C60856"
+			rewards: [
+				{
+					id: "0E1E7EF7872C3DE2"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "471F7C2DC8213DF1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "430D5DC21EC258EF"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				days: 25
+				id: "2C0A53105F55E024"
+				type: "questsadditions:days"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["27937757D1C60856"]
+			description: ["{litv3.playtime_rewards.description6}"]
+			hide: true
+			hide_dependency_lines: true
+			id: "176F0155A9C8E1B5"
+			rewards: [
+				{
+					id: "52CFDA243D88B965"
+					item: "aquaculture:treasure_chest"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6A3ECCDACEE228EF"
+					item: "minecraft:cooked_beef"
+					type: "item"
+				}
+				{
+					id: "1412FEAF998A994A"
+					item: "minecraft:golden_apple"
+					random_bonus: 5
+					type: "item"
+				}
+			]
+			tasks: [{
+				days: 30
+				id: "0C9A36481E143EC1"
+				type: "questsadditions:days"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["176F0155A9C8E1B5"]
+			description: ["{litv3.playtime_rewards.description7}"]
+			hide: true
+			hide_text_until_complete: true
+			id: "21DE75A2E9463120"
+			rewards: [
+				{
+					count: 3
+					id: "615DDF0BBFBBD00E"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "55C112DCB5648811"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F267062F7F4D6CB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				days: 35
+				id: "42EA3479C43ECBC4"
+				type: "questsadditions:days"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["21DE75A2E9463120"]
+			description: ["{litv3.playtime_rewards.description8}"]
+			hide: true
+			hide_text_until_complete: true
+			id: "59E0474D362D0937"
+			rewards: [
+				{
+					id: "7D6F8EEFE6A09E4A"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "6519D196AF9399EF"
+					item: "minecraft:glistering_melon_slice"
+					random_bonus: 32
+					type: "item"
+				}
+				{
+					id: "39A45987E9DCF4CE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				days: 40
+				id: "6B97C68B0F28CB4A"
+				type: "questsadditions:days"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["59E0474D362D0937"]
+			description: ["{litv3.playtime_rewards.description9}"]
+			hide: true
+			hide_text_until_complete: true
+			id: "46C585E26D869B01"
+			rewards: [
+				{
+					count: 32
+					id: "7847502274BB53D5"
+					item: "minecraft:golden_carrot"
+					random_bonus: 32
+					type: "item"
+				}
+				{
+					id: "3A242563A4C6C070"
+					item: "minecraft:emerald"
+					random_bonus: 63
+					type: "item"
+				}
+				{
+					id: "728FBFF4D28BC630"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				days: 45
+				id: "0565F285C3B2FD16"
+				type: "questsadditions:days"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["46C585E26D869B01"]
+			description: ["{litv3.playtime_rewards.description10}"]
+			hide: true
+			hide_text_until_complete: true
+			id: "44467B2AB2E874A3"
+			rewards: [
+				{
+					id: "4E0B0D65780C4AB8"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "22A1F0A3DB48375F"
+					item: "kubejs:iron_coin"
+					random_bonus: 5
+					type: "item"
+				}
+				{
+					id: "7A1A8D9A86195B08"
+					item: "kubejs:copper_coin"
+					random_bonus: 5
+					type: "item"
+				}
+			]
+			tasks: [{
+				days: 50
+				id: "4E70EF44145428B9"
+				type: "questsadditions:days"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["44467B2AB2E874A3"]
+			description: ["{litv3.playtime_rewards.description11}"]
+			hide: true
+			hide_dependency_lines: true
+			hide_text_until_complete: true
+			id: "06EB31B0B8EA5CEC"
+			rewards: [
+				{
+					id: "44F70944FA884FFF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "62C466936488EB60"
+					item: "minecraft:cake"
+					type: "item"
+				}
+			]
+			tasks: [{
+				days: 55
+				id: "3F50B29A19EE16D3"
+				type: "questsadditions:days"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["06EB31B0B8EA5CEC"]
+			description: ["{litv3.playtime_rewards.description12}"]
+			hide: true
+			hide_text_until_complete: true
+			id: "061968753AE94B40"
+			rewards: [
+				{
+					id: "51F791FD5A3F86C5"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "15D6CA8FEC398C9D"
+					item: "minecraft:cake"
+					type: "item"
+				}
+				{
+					id: "5C77A60ED05C3C0C"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				days: 60
+				id: "10E9A099E0925403"
+				type: "questsadditions:days"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["061968753AE94B40"]
+			description: ["{litv3.playtime_rewards.description13}"]
+			hide: true
+			hide_text_until_complete: true
+			id: "5B24EF11953C8CFD"
+			rewards: [
+				{
+					id: "6B270F960E4D411D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "561320C752F9D37D"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B725B30DF79F999"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [{
+				days: 65
+				id: "366096DB17557F3C"
+				type: "questsadditions:days"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B24EF11953C8CFD"]
+			description: ["{litv3.playtime_rewards.description14}"]
+			hide: true
+			hide_text_until_complete: true
+			id: "2DE1CA2DC6632F19"
+			rewards: [
+				{
+					id: "44519DF32D89454B"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "78E86374C388EA82"
+					item: "minecraft:cake"
+					type: "item"
+				}
+				{
+					id: "1F178FBA356A0F13"
+					item: "aquaculture:lockbox"
+					type: "item"
+				}
+			]
+			tasks: [{
+				days: 70
+				id: "457A0E03DE80B549"
+				type: "questsadditions:days"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2DE1CA2DC6632F19"]
+			description: ["{litv3.playtime_rewards.description15}"]
+			hide: true
+			hide_text_until_complete: true
+			id: "0C040E6333183CAF"
+			rewards: [
+				{
+					id: "159D88B45169E865"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "55BD7837A7514AE5"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				days: 75
+				id: "1B0F3D61BBA1E86D"
+				type: "questsadditions:days"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0C040E6333183CAF"]
+			description: [
+				"{litv3.playtime_rewards.description16}"
+				""
+				"{litv3.playtime_rewards.description17}"
+			]
+			hide: true
+			hide_text_until_complete: true
+			id: "3780CD2BFB857AC4"
+			rewards: [
+				{
+					id: "34768BB8940273CA"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "5CB8CCC99679C7E6"
+					item: "minecraft:cake"
+					type: "item"
+				}
+				{
+					id: "6E3EA0324C960161"
+					item: "aquaculture:lockbox"
+					type: "item"
+				}
+			]
+			tasks: [{
+				days: 80
+				id: "444AD1EF21BD2FC1"
+				type: "questsadditions:days"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3780CD2BFB857AC4"]
+			description: ["{litv3.playtime_rewards.description18}"]
+			hide: true
+			hide_text_until_complete: true
+			id: "011913E4D2CA7AF1"
+			rewards: [
+				{
+					id: "254A82750B24A1AD"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "1BA2A7CF995FA044"
+					item: "aquaculture:treasure_chest"
+					type: "item"
+				}
+			]
+			tasks: [{
+				days: 85
+				id: "09B7684823F9B51D"
+				type: "questsadditions:days"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["011913E4D2CA7AF1"]
+			description: ["{litv3.playtime_rewards.description19}"]
+			hide: true
+			hide_text_until_complete: true
+			id: "2DB922DEF5335F36"
+			rewards: [
+				{
+					id: "4F3FF1AE7CED60B3"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "2E4D451E1E1C5C0D"
+					item: "minecraft:cake"
+					type: "item"
+				}
+				{
+					id: "70375E77966A72F2"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				days: 90
+				id: "790EBCC7D9249FE2"
+				type: "questsadditions:days"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2DB922DEF5335F36"]
+			description: ["{litv3.playtime_rewards.description20}"]
+			hide: true
+			hide_text_until_complete: true
+			id: "0D2BD2A19863BA22"
+			rewards: [
+				{
+					id: "4DE7F851E3CD885D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6977C75D0E6C51DA"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				days: 95
+				id: "48A52961D23BF432"
+				type: "questsadditions:days"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D2BD2A19863BA22"]
+			description: [
+				"{litv3.playtime_rewards.description21}"
+				""
+				"{litv3.playtime_rewards.description22}"
+			]
+			hide: true
+			hide_text_until_complete: true
+			id: "7D6A26E08461DE07"
+			rewards: [
+				{
+					id: "06ECEB551920083E"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "rare_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B03B85921F21A89"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "6BCE4C846B0CD6D3"
+					item: "simplehats:hatbag_common"
+					type: "item"
+				}
+			]
+			tasks: [{
+				days: 100
+				id: "2D921604004CC894"
+				type: "questsadditions:days"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D6A26E08461DE07"]
+			description: [
+				"{litv3.playtime_rewards.description23}"
+				""
+				"{litv3.playtime_rewards.description24}"
+			]
+			hide: true
+			hide_dependency_lines: true
+			hide_text_until_complete: true
+			id: "006410C879D85899"
+			rewards: [
+				{
+					id: "01ADFC86040C0E62"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "1E90B06A7E8E91C1"
+					item: "kubejs:diamond_nugget"
+					random_bonus: 20
+					type: "item"
+				}
+				{
+					id: "016A278BC2DBF501"
+					item: "aquaculture:treasure_chest"
+					type: "item"
+				}
+				{
+					id: "2F3C911E64E9A29B"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				days: 105
+				id: "2DB008DA33CFAC1F"
+				type: "questsadditions:days"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["006410C879D85899"]
+			description: ["{litv3.playtime_rewards.description25}"]
+			hide: true
+			hide_text_until_complete: true
+			id: "266CE3B857691E12"
+			rewards: [
+				{
+					id: "05AEDB64D27D402D"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "2FD86BCF6DD5A444"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 25
+					type: "item"
+				}
+				{
+					id: "1078A4373F5D3423"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "hat_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				days: 110
+				id: "2B525C91219AA513"
+				type: "questsadditions:days"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["266CE3B857691E12"]
+			description: ["{litv3.playtime_rewards.description26}"]
+			hide: true
+			hide_text_until_complete: true
+			id: "260E05024675DBCF"
+			rewards: [
+				{
+					id: "7355F53CF60508B4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "4823FD35A8A86FBA"
+					item: "kubejs:diamond_nugget"
+					random_bonus: 25
+					type: "item"
+				}
+				{
+					id: "0AC8A5D1F1172906"
+					item: "aquaculture:treasure_chest"
+					type: "item"
+				}
+				{
+					id: "1E88B8F55E4E8C0A"
+					item: "minecraft:cake"
+					type: "item"
+				}
+			]
+			tasks: [{
+				days: 115
+				id: "6E73EB9027E3C5EF"
+				type: "questsadditions:days"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["260E05024675DBCF"]
+			description: ["{litv3.playtime_rewards.description27}"]
+			hide: true
+			hide_text_until_complete: true
+			id: "163B9F3D4F272DF4"
+			rewards: [
+				{
+					id: "01992625D39777EB"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "3A912F841CA5EC03"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 20
+					type: "item"
+				}
+				{
+					id: "30BBB8E389BE9A8C"
+					item: "aquaculture:lockbox"
+					type: "item"
+				}
+			]
+			tasks: [{
+				days: 120
+				id: "56DECAFA08B950C1"
+				type: "questsadditions:days"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["163B9F3D4F272DF4"]
+			description: ["{litv3.playtime_rewards.description28}"]
+			hide: true
+			hide_text_until_complete: true
+			id: "377571ED344BC82D"
+			rewards: [
+				{
+					id: "1721BA80180922C5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "28DD5F9446B79E0F"
+					item: "kubejs:diamond_nugget"
+					random_bonus: 23
+					type: "item"
+				}
+				{
+					id: "370CEDC74378BD45"
+					item: "aquaculture:treasure_chest"
+					type: "item"
+				}
+				{
+					id: "0BB217074357207E"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				days: 125
+				id: "54414B6F6F672D4B"
+				type: "questsadditions:days"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["377571ED344BC82D"]
+			description: [
+				"{litv3.playtime_rewards.description29}"
+				""
+				"{litv3.playtime_rewards.description30}"
+			]
+			hide: true
+			hide_text_until_complete: true
+			id: "47AA5BE1F75ECC8F"
+			rewards: [
+				{
+					id: "7C95C1BA4D11FE17"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "02E63744E1C1CAEC"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 15
+					type: "item"
+				}
+				{
+					id: "48E6E15DF474893A"
+					item: "kubejs:diamond_nugget"
+					random_bonus: 17
+					type: "item"
+				}
+			]
+			tasks: [{
+				days: 130
+				id: "4091B0201F455706"
+				type: "questsadditions:days"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["47AA5BE1F75ECC8F"]
+			description: ["{litv3.playtime_rewards.description31}"]
+			hide: true
+			hide_text_until_complete: true
+			id: "5D986150671EC0ED"
+			rewards: [
+				{
+					id: "76F5129AECDE93CB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "11BFB732D65A5EAE"
+					item: "kubejs:diamond_nugget"
+					random_bonus: 11
+					type: "item"
+				}
+				{
+					id: "42D50D34A2793F86"
+					item: "aquaculture:treasure_chest"
+					type: "item"
+				}
+				{
+					id: "553121AB22AAC1AD"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				days: 135
+				id: "327D3A552C025E5B"
+				type: "questsadditions:days"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5D986150671EC0ED"]
+			description: ["{litv3.playtime_rewards.description32}"]
+			hide: true
+			hide_text_until_complete: true
+			id: "195B8FC12CF1FA96"
+			rewards: [
+				{
+					id: "590812E3312A30B4"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "2CEF73396DAE03A9"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 32
+					type: "item"
+				}
+			]
+			tasks: [{
+				days: 140
+				id: "097560E996E09FCC"
+				type: "questsadditions:days"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["195B8FC12CF1FA96"]
+			description: ["{litv3.playtime_rewards.description33}"]
+			hide: true
+			hide_text_until_complete: true
+			id: "2EC078DB2F945FB1"
+			rewards: [
+				{
+					id: "057C86A8AD743CA1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "2A9A84A0EDA43504"
+					item: "kubejs:diamond_nugget"
+					random_bonus: 15
+					type: "item"
+				}
+				{
+					id: "038033070E7EAEFB"
+					item: "aquaculture:treasure_chest"
+					type: "item"
+				}
+			]
+			tasks: [{
+				days: 145
+				id: "7932B0E62132A68A"
+				type: "questsadditions:days"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2EC078DB2F945FB1"]
+			description: ["{litv3.playtime_rewards.description34}"]
+			hide: true
+			hide_text_until_complete: true
+			id: "38DADE2FC9338CE2"
+			rewards: [
+				{
+					id: "7D023FCBE12F7BCB"
+					item: "kubejs:iron_coin"
+					random_bonus: 5
+					type: "item"
+				}
+				{
+					id: "07EFB9CF771957A3"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 54
+					type: "item"
+				}
+				{
+					id: "7DDC6A9772B143D2"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "hat_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7028330F917641F2"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "112405D1131E291A"
+					item: "minecraft:cake"
+					type: "item"
+				}
+			]
+			tasks: [{
+				days: 150
+				id: "4CC6573EC77F9E7A"
+				type: "questsadditions:days"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["38DADE2FC9338CE2"]
+			description: ["{litv3.playtime_rewards.description35}"]
+			hide: true
+			hide_dependency_lines: true
+			hide_text_until_complete: true
+			id: "16E6EF76D395D319"
+			rewards: [
+				{
+					id: "5089BE88DC4D5EA4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "215F7FF39140E782"
+					item: "kubejs:diamond_nugget"
+					random_bonus: 51
+					type: "item"
+				}
+				{
+					id: "0A9052B7FB2FB204"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 14
+					type: "item"
+				}
+				{
+					id: "7E939CF94E2FE783"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				days: 155
+				id: "39CEC7A6D3B9AA96"
+				type: "questsadditions:days"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["16E6EF76D395D319"]
+			description: ["{litv3.playtime_rewards.description36}"]
+			hide: true
+			hide_text_until_complete: true
+			id: "6F891D75F5BE8DD9"
+			rewards: [
+				{
+					id: "2686ED1646F17A82"
+					item: "kubejs:diamond_nugget"
+					random_bonus: 14
+					type: "item"
+				}
+				{
+					id: "36F9CE1679779D97"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 18
+					type: "item"
+				}
+				{
+					id: "6B98BDB939C388D9"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3DFD5155920BB1CD"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "7B4D24BD342642CC"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				days: 160
+				id: "514F23F361254806"
+				type: "questsadditions:days"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6F891D75F5BE8DD9"]
+			description: ["{litv3.playtime_rewards.description37}"]
+			hide: true
+			hide_text_until_complete: true
+			id: "3AD9243FC656D01B"
+			rewards: [
+				{
+					id: "30E79C634B727B40"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "58A18DA126C34E84"
+					item: "kubejs:diamond_nugget"
+					random_bonus: 41
+					type: "item"
+				}
+				{
+					id: "0A6821E41C063E64"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 15
+					type: "item"
+				}
+				{
+					id: "42AEB8CFD0FDBE1D"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					id: "209781696B98E310"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				days: 165
+				id: "685C70F0AFAE99F7"
+				type: "questsadditions:days"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3AD9243FC656D01B"]
+			description: ["{litv3.playtime_rewards.description38}"]
+			hide: true
+			hide_text_until_complete: true
+			id: "0E99800B5CCBB624"
+			rewards: [
+				{
+					id: "621EE5D6540E4F4E"
+					item: "kubejs:diamond_nugget"
+					random_bonus: 18
+					type: "item"
+				}
+				{
+					id: "0123E6072A6F415E"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 21
+					type: "item"
+				}
+				{
+					id: "53951D9A71C38E8A"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "7FF24BF116E28A53"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "6A2D5F70AD5640F0"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				days: 170
+				id: "0D0D9AF99A9C5489"
+				type: "questsadditions:days"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0E99800B5CCBB624"]
+			description: ["{litv3.playtime_rewards.description39}"]
+			hide: true
+			hide_text_until_complete: true
+			id: "22B9F32E6ECC9CA8"
+			rewards: [
+				{
+					id: "2AB3AF1353639E2C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "4177FD7011C50D50"
+					item: "kubejs:diamond_nugget"
+					random_bonus: 41
+					type: "item"
+				}
+				{
+					id: "5FB4EB34FC85C38C"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 71
+					type: "item"
+				}
+				{
+					id: "7A18345543D44414"
+					item: "minecraft:cake"
+					type: "item"
+				}
+				{
+					id: "2C222D95AA763FA0"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "725C0E3DC26D3685"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				days: 175
+				id: "541DFB7B05C7D5AF"
+				type: "questsadditions:days"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["22B9F32E6ECC9CA8"]
+			description: ["{litv3.playtime_rewards.description40}"]
+			hide: true
+			hide_text_until_complete: true
+			id: "3AD2918C0AF2FA03"
+			rewards: [
+				{
+					id: "24D23FCE0C5AE571"
+					item: "kubejs:diamond_nugget"
+					random_bonus: 61
+					type: "item"
+				}
+				{
+					id: "7CBC026E8F2FF359"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 31
+					type: "item"
+				}
+				{
+					id: "54397BB005212909"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					id: "5424AE5EBF3AB597"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "1812BD1D9250DA28"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "rare_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B1D705263B712E8"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				days: 180
+				id: "0689C0DE3208B6CF"
+				type: "questsadditions:days"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3AD2918C0AF2FA03"]
+			description: ["{litv3.playtime_rewards.description41}"]
+			hide: true
+			hide_text_until_complete: true
+			id: "5842A72168165AE2"
+			rewards: [
+				{
+					id: "4DE0DAAC79FE1EA6"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "539D1D60945CA24B"
+					item: "kubejs:diamond_nugget"
+					random_bonus: 41
+					type: "item"
+				}
+				{
+					id: "1A382EA9D959F529"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 34
+					type: "item"
+				}
+				{
+					id: "0857C7466FCCCA9E"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				days: 185
+				id: "0A9B9C0306B1C05E"
+				type: "questsadditions:days"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5842A72168165AE2"]
+			description: ["{litv3.playtime_rewards.description42}"]
+			hide: true
+			hide_text_until_complete: true
+			id: "63133EFF7C3ACA26"
+			rewards: [
+				{
+					id: "481B1E35ADC63372"
+					item: "kubejs:diamond_nugget"
+					random_bonus: 64
+					type: "item"
+				}
+				{
+					id: "6A1C732410781473"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 36
+					type: "item"
+				}
+				{
+					id: "6936C9DF4D3C0D13"
+					item: "aquaculture:lockbox"
+					type: "item"
+				}
+				{
+					id: "165771C6296BD96D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "22F8750094F449AF"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "387BBE8CC0BFFD7C"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				days: 190
+				id: "17BFB3CE287A3915"
+				type: "questsadditions:days"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["63133EFF7C3ACA26"]
+			description: ["{litv3.playtime_rewards.description43}"]
+			hide: true
+			hide_text_until_complete: true
+			id: "5D520BFF8837A25F"
+			rewards: [
+				{
+					id: "140FCCA45AAA44A5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6B1984E45D0C4994"
+					item: "kubejs:diamond_nugget"
+					random_bonus: 36
+					type: "item"
+				}
+				{
+					id: "61D1BAA33DCD2F49"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 37
+					type: "item"
+				}
+				{
+					id: "030A913425B6221C"
+					item: "aquaculture:treasure_chest"
+					type: "item"
+				}
+			]
+			tasks: [{
+				days: 195
+				id: "003B4A035E829385"
+				type: "questsadditions:days"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5D520BFF8837A25F"]
+			description: ["{litv3.playtime_rewards.description44}"]
+			hide: true
+			hide_text_until_complete: true
+			id: "620A310879FED5D4"
+			rewards: [
+				{
+					id: "1981CAFEA0BD022F"
+					item: "kubejs:diamond_nugget"
+					random_bonus: 100
+					type: "item"
+				}
+				{
+					id: "19E1F2ACC235E5B8"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 100
+					type: "item"
+				}
+				{
+					id: "0067851845AFBB0F"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "rare_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D6400B2FB848DC4"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "0B206C44189FA755"
+					item: "aquaculture:treasure_chest"
+					type: "item"
+				}
+				{
+					id: "1FAF5B85A9DA917B"
+					item: "minecraft:cake"
+					type: "item"
+				}
+				{
+					id: "395C42C725390E53"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				days: 200
+				id: "26F6A413BC922510"
+				type: "questsadditions:days"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+	]
+	title: "{litv3.playtime_rewards.title0}"
+}

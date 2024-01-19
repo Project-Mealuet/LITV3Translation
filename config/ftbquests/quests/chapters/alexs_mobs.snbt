@@ -1,0 +1,2536 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "alexs_mobs"
+	group: "2280ECB310C79FE3"
+	icon: "quark:slime_in_a_bucket"
+	id: "0399220027D545F6"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4E20E64264B2AA55"]
+			description: ["{litv3.alexs_mobs.description0}"]
+			id: "11AD9C3E6F7ED206"
+			rewards: [{
+				id: "340E06F7124FEBEF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5600BE1C666EA251"
+				item: "alexsmobs:bear_fur"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["32F7D28F7B29709C"]
+			description: ["{litv3.alexs_mobs.description1}"]
+			id: "7462427AC1D865C7"
+			rewards: [{
+				id: "7362384A28563B41"
+				item: "alexsmobs:roadrunner_feather"
+				type: "item"
+			}]
+			tasks: [{
+				id: "062115DFB9A8E0A6"
+				item: "alexsmobs:roadrunner_feather"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7462427AC1D865C7"]
+			description: ["{litv3.alexs_mobs.description2}"]
+			id: "12976ADEDD3B9090"
+			rewards: [{
+				id: "572BCFB7DCCC3B47"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "12F81678685F16CD"
+				item: {
+					Count: 1b
+					id: "alexsmobs:roadrunner_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6C2B0968097E6A03"]
+			description: ["{litv3.alexs_mobs.description3}"]
+			id: "15132115F40EF4EA"
+			rewards: [{
+				id: "3E1A49BB8521AFF7"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:fire_resistance"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "71619495E5032397"
+				item: "alexsmobs:bone_serpent_tooth"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["15132115F40EF4EA"]
+			description: ["{litv3.alexs_mobs.description4}"]
+			id: "2092B6A1EE21D018"
+			rewards: [{
+				id: "2C2755CFD1E314F1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "72DEF711876FB75D"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "alexsmobs:lava_vision"
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["617FBFA90048602D"]
+			description: ["{litv3.alexs_mobs.description5}"]
+			id: "1561DE019D318A18"
+			rewards: [{
+				count: 4
+				id: "23142A2F01E41DEC"
+				item: "minecraft:mutton"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7ABF08CE502BA3D7"
+				item: "alexsmobs:gazelle_horn"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4B89A8800535AB16"]
+			description: ["{litv3.alexs_mobs.description6}"]
+			id: "2FBC1196F9B59DF7"
+			rewards: [{
+				count: 3
+				id: "65E65E9D89D5AB31"
+				item: "alexsmobs:crocodile_scute"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C695EDB244719DB"
+				item: "alexsmobs:crocodile_scute"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2FBC1196F9B59DF7"]
+			description: ["{litv3.alexs_mobs.description7}"]
+			id: "7B74EDBD46057811"
+			rewards: [
+				{
+					id: "641B159A3198F44C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "18EC327014C28237"
+					item: "aquaculture:box"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "55B1F5C0010212AB"
+				item: {
+					Count: 1b
+					id: "alexsmobs:crocodile_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["49AB71E75762D0B9"]
+			description: ["{litv3.alexs_mobs.description8}"]
+			id: "042E30144F9A1D2A"
+			rewards: [{
+				count: 3
+				id: "20E0157B26AF049E"
+				item: "alexsmobs:maggot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2CFDD31640066490"
+				item: "alexsmobs:maggot"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			description: ["{litv3.alexs_mobs.description9}"]
+			id: "2CF3F2F094B0D3B1"
+			rewards: [{
+				count: 5
+				id: "45C540FB68964752"
+				item: "alexsmobs:banana"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F2509E78CBF66D8"
+				item: "alexsmobs:banana"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["295FFF98AC0C3FB2"]
+			description: ["{litv3.alexs_mobs.description10}"]
+			id: "1670F799696648EA"
+			rewards: [{
+				id: "1D77006C38694FB8"
+				item: "minecraft:milk_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "14B04FCEC03DCB1E"
+				item: "alexsmobs:rattlesnake_rattle"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2C2D57D238A96C47"]
+			description: ["{litv3.alexs_mobs.description11}"]
+			id: "12903E07FD2AA25B"
+			rewards: [{
+				count: 3
+				id: "19061E1292F8E483"
+				item: "alexsmobs:shark_tooth"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B77AD7BC335F364"
+				item: "alexsmobs:shark_tooth"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["12903E07FD2AA25B"]
+			description: ["{litv3.alexs_mobs.description12}"]
+			id: "77213B3F102D54FC"
+			rewards: [{
+				count: 11
+				id: "7D5E3E3B7942FD70"
+				item: "alexsmobs:shark_tooth_arrow"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F6970038AA15D78"
+				item: "alexsmobs:shark_tooth_arrow"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["493146EF96766BF4"]
+			description: ["{litv3.alexs_mobs.description13}"]
+			id: "0A695B938C047241"
+			rewards: [{
+				id: "2520E1700D149682"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "71AABA26300386B5"
+				item: "alexsmobs:lobster_bucket"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["493146EF96766BF4"]
+			description: ["{litv3.alexs_mobs.description14}"]
+			id: "5B599C2BB40A43DD"
+			rewards: [{
+				id: "20497616CCD7A3F4"
+				item: "alexsmobs:lobster_tail"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3AC3964E80C583B9"
+				item: "alexsmobs:lobster_tail"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5B599C2BB40A43DD"]
+			description: ["{litv3.alexs_mobs.description15}"]
+			id: "3B65899892E55F6F"
+			rewards: [{
+				id: "29C76AC5528B9264"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "717BA1871FF674CF"
+				item: "alexsmobs:cooked_lobster_tail"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6BC74F4BAEA808FF"]
+			description: ["{litv3.alexs_mobs.description16}"]
+			id: "08F33774046B54FC"
+			rewards: [{
+				count: 2
+				id: "7ADC6ADEC9153DD8"
+				item: "alexsmobs:komodo_spit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D23CE0916F75F31"
+				item: "alexsmobs:komodo_spit"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["08F33774046B54FC"]
+			description: ["{litv3.alexs_mobs.description17}"]
+			id: "7EBEA1931702D1E5"
+			rewards: [{
+				id: "1CB8CAD5C0311D3E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "62EC16B92C5F9D63"
+				item: "alexsmobs:komodo_spit_bottle"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["76291B63F0ED9022"]
+			description: ["{litv3.alexs_mobs.description18}"]
+			id: "05B3DE276E40F772"
+			rewards: [{
+				id: "1677938C00103DCA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1461BD6CFCC7D731"
+				item: "alexsmobs:banana_peel"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["05B3DE276E40F772"]
+			description: [
+				"{litv3.alexs_mobs.description19}"
+				"{litv3.alexs_mobs.description20}"
+			]
+			id: "5FE4BCE33C614980"
+			rewards: [{
+				id: "3C82761AB3FB798E"
+				item: "minecraft:beetroot_soup"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7DE107F6DBEF8906"
+				item: "alexsmobs:sopa_de_macaco"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3705153037F1DDEE"]
+			description: ["{litv3.alexs_mobs.description21}"]
+			id: "2DFC032306822F4E"
+			rewards: [{
+				id: "42B83502B5DC6F7D"
+				item: "alexsmobs:moose_antler"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D8CA585B9505139"
+				item: "alexsmobs:moose_antler"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2DFC032306822F4E"]
+			description: ["{litv3.alexs_mobs.description22}"]
+			id: "27F0DB0AF1386C6D"
+			rewards: [{
+				id: "1E24662780A92557"
+				item: "aquaculture:box"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A68C851464EBAC0"
+				item: {
+					Count: 1b
+					id: "alexsmobs:moose_headgear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3705153037F1DDEE"]
+			description: ["{litv3.alexs_mobs.description23}"]
+			id: "61C774465250F5E2"
+			rewards: [{
+				id: "472FB949C5746205"
+				item: "alexsmobs:moose_ribs"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B83A5C69A722347"
+				item: "alexsmobs:moose_ribs"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["61C774465250F5E2"]
+			description: ["{litv3.alexs_mobs.description24}"]
+			id: "11AFA0A04E10DF94"
+			rewards: [{
+				id: "51D38003D68052C2"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "32DB582575A5FAC4"
+				item: "alexsmobs:cooked_moose_ribs"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5AF05B20BB414210"]
+			description: ["{litv3.alexs_mobs.description25}"]
+			id: "43A6451E42293BAC"
+			rewards: [{
+				id: "609CE8B10132027F"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "166A0DF287F39D32"
+				item: "alexsmobs:raccoon_tail"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["43A6451E42293BAC"]
+			description: ["{litv3.alexs_mobs.description26}"]
+			id: "5E067D93C8018428"
+			rewards: [{
+				id: "7B09E7CD8A48EFC5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "1CFD2F5A909BAEE3"
+				item: {
+					Count: 1b
+					id: "alexsmobs:frontier_cap"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1670F799696648EA"]
+			description: ["{litv3.alexs_mobs.description27}"]
+			id: "679FB7E7C654385F"
+			rewards: [{
+				id: "32FDBAEAB5DEBC1B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "19D31D99E32BAF86"
+				item: "alexsmobs:maraca"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3B5935EFBF9C27D7"]
+			description: ["{litv3.alexs_mobs.description28}"]
+			id: "147F7EA3E650C141"
+			rewards: [{
+				count: 3
+				id: "632F82CF39CB7BA0"
+				item: "alexsmobs:cockroach_wing_fragment"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A1E5CD54BAF7A7F"
+				item: "alexsmobs:cockroach_wing_fragment"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["147F7EA3E650C141"]
+			description: ["{litv3.alexs_mobs.description29}"]
+			id: "4DC3338C71A2086D"
+			rewards: [{
+				id: "59E077B437620EEE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2FD18E114E0FE331"
+				item: "alexsmobs:cockroach_wing"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4DC3338C71A2086D"]
+			description: ["{litv3.alexs_mobs.description30}"]
+			id: "3B1E5DEBB7BE02F1"
+			rewards: [
+				{
+					id: "6C27111D0D893390"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0963A3AC98575CC8"
+					item: "aquaculture:box"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1B05EE63E81476D3"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "alexsmobs:bug_pheromones"
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 4.5d
+		}
+		{
+			description: ["{litv3.alexs_mobs.description31}"]
+			id: "568B1FDB06169851"
+			rewards: [{
+				count: 2
+				id: "4CC4667252307EDB"
+				item: "alexsmobs:acacia_blossom"
+				type: "item"
+			}]
+			tasks: [{
+				id: "79126CD9D0AD4237"
+				item: "alexsmobs:acacia_blossom"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["292B32B34CD5094A"]
+			description: ["{litv3.alexs_mobs.description32}"]
+			id: "3E83CFACFBDFDEB2"
+			rewards: [
+				{
+					id: "4DF80267D690A21B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "23BE6640C97931B9"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_regeneration"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "63A93237BADBA22A"
+				item: "alexsmobs:soul_heart"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3E83CFACFBDFDEB2"]
+			description: ["{litv3.alexs_mobs.description33}"]
+			id: "6A1A2DA7A8CF7DFC"
+			rewards: [{
+				id: "032D1B64A72FF455"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "66B8F8B6B4128277"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "alexsmobs:soulsteal"
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6964B640BF90A11C"]
+			description: ["{litv3.alexs_mobs.description34}"]
+			id: "76AAFE97A27F9401"
+			rewards: [{
+				count: 2
+				id: "0494940CD1D9299C"
+				item: "alexsmobs:spiked_scute"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2354928341859A19"
+				item: "alexsmobs:spiked_scute"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["76AAFE97A27F9401"]
+			description: ["{litv3.alexs_mobs.description35}"]
+			id: "7C7C37A9744A5749"
+			rewards: [{
+				id: "43EC41F6B0FDA9A9"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "43B7921B92D4A21C"
+				item: {
+					Count: 1b
+					id: "alexsmobs:spiked_turtle_shell"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["586FB5B01BB6C341"]
+			description: ["{litv3.alexs_mobs.description36}"]
+			id: "1F21942D74A4B548"
+			rewards: [{
+				id: "22556EDB4184B39C"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D788644FF1CE5F1"
+				item: "alexsmobs:guster_eye"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1F21942D74A4B548"]
+			description: ["{litv3.alexs_mobs.description37}"]
+			id: "3E2F7D08A8E596F1"
+			rewards: [{
+				id: "140C65FC53463AD8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "79667C6F209C2E6A"
+				item: {
+					Count: 1b
+					id: "alexsmobs:pocket_sand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1F21942D74A4B548"]
+			description: ["{litv3.alexs_mobs.description38}"]
+			id: "2401BD24F4787BEE"
+			rewards: [
+				{
+					id: "730D3520D358C026"
+					item: "minecraft:lever"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "79B79FB24325B61C"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4A08C8CC60DB08D7"
+				item: "alexsmobs:gustmaker"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["47BE77D8F21BBDCC"]
+			description: ["{litv3.alexs_mobs.description39}"]
+			id: "323E3518BE41C84D"
+			rewards: [{
+				id: "28A197BA81394DDA"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "7466FDC5B490C584"
+				item: "alexsmobs:warped_muscle"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["47BE77D8F21BBDCC"]
+			description: ["{litv3.alexs_mobs.description40}"]
+			id: "1DD27A6265642B96"
+			rewards: [{
+				count: 2
+				id: "41E40B84EE4639C6"
+				item: "alexsmobs:hemolymph_sac"
+				type: "item"
+			}]
+			tasks: [{
+				id: "69C3C165B652D650"
+				item: "alexsmobs:hemolymph_sac"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"323E3518BE41C84D"
+				"1DD27A6265642B96"
+			]
+			description: ["{litv3.alexs_mobs.description41}"]
+			id: "7E104C87A3BB6CA4"
+			rewards: [{
+				id: "1B6C481D87B6663E"
+				item: "aquaculture:box"
+				type: "item"
+			}]
+			tasks: [{
+				id: "733A3D3E59544AC5"
+				item: {
+					Count: 1b
+					id: "alexsmobs:hemolymph_blaster"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4EDC8D006049F8E4"]
+			description: ["{litv3.alexs_mobs.description42}"]
+			id: "13EDF3FD77403F25"
+			rewards: [{
+				id: "48B142CD79EFCAEE"
+				item: "aquaculture:box"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4AE8288976987969"
+				item: "alexsmobs:stradpole_bucket"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4EDC8D006049F8E4"]
+			description: ["{litv3.alexs_mobs.description43}"]
+			id: "1D01C2288B41EBDC"
+			rewards: [{
+				id: "16E611377AB6A99D"
+				item: "alexsmobs:straddlite"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5BABD09020966A53"
+				item: "alexsmobs:straddlite"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1D01C2288B41EBDC"]
+			description: ["{litv3.alexs_mobs.description44}"]
+			id: "76D75DF855373032"
+			rewards: [{
+				id: "578539AEF0D91CB4"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "6F0FC34DF30FD700"
+				item: {
+					Count: 1b
+					id: "alexsmobs:straddleboard"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["051CA3BEF47E6BCF"]
+			description: ["{litv3.alexs_mobs.description45}"]
+			id: "38854ED19F0C1963"
+			rewards: [{
+				id: "6E9B1E0DDF597ECD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3E740055ADB7D366"
+				item: "alexsmobs:emu_egg"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["38854ED19F0C1963"]
+			description: ["{litv3.alexs_mobs.description46}"]
+			id: "5155710838D1A547"
+			rewards: [{
+				count: 2
+				id: "14A50E2C25011DB8"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CE12C0C528D8BB6"
+				item: "alexsmobs:boiled_emu_egg"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["051CA3BEF47E6BCF"]
+			description: ["{litv3.alexs_mobs.description47}"]
+			id: "369959C82AF24ECD"
+			rewards: [{
+				id: "54A122BBF62F12B5"
+				item: "alexsmobs:emu_feather"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2EDDC0933AB806CE"
+				item: "alexsmobs:emu_feather"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"369959C82AF24ECD"
+				"4FBF9E3701C078F6"
+			]
+			description: ["{litv3.alexs_mobs.description48}"]
+			id: "25B989B6383563D8"
+			rewards: [
+				{
+					id: "0E1C3B1A350B4391"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "688672923C3DD8A5"
+					item: "aquaculture:box"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "417EE5A316C452B3"
+				item: {
+					Count: 1b
+					id: "alexsmobs:emu_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0544039A394BA4C5"]
+			description: ["{litv3.alexs_mobs.description49}"]
+			id: "3DAF08614ABA2EC5"
+			rewards: [{
+				id: "08C9AA67E57F2FBB"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "20299B6FFF0AC499"
+				item: "alexsmobs:dropbear_claw"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["3DAF08614ABA2EC5"]
+			description: ["{litv3.alexs_mobs.description50}"]
+			id: "4FE66E25E32AEBAE"
+			rewards: [{
+				id: "6499C6EFC0F16AE2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "491D219FBC87114E"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "alexsmobs:clinging"
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6941D667244F04D9"]
+			description: ["{litv3.alexs_mobs.description51}"]
+			id: "62E977DBD3A3F3FE"
+			rewards: [{
+				id: "2CD6531416286BE0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4F70AF34DD1E0BC5"
+				item: "alexsmobs:kangaroo_meat"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["62E977DBD3A3F3FE"]
+			description: ["{litv3.alexs_mobs.description52}"]
+			id: "5156BA2D508BE4D0"
+			rewards: [{
+				count: 2
+				id: "66684701385986D7"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D30E69B7CB6A0D1"
+				item: "alexsmobs:cooked_kangaroo_meat"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6941D667244F04D9"]
+			description: ["{litv3.alexs_mobs.description53}"]
+			id: "4FBF9E3701C078F6"
+			rewards: [{
+				id: "2512B0CB217F59B2"
+				item: "alexsmobs:kangaroo_hide"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C057F378B832103"
+				item: "alexsmobs:kangaroo_hide"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7E6468F38A587264"]
+			description: ["{litv3.alexs_mobs.description54}"]
+			id: "16CAFA17D62FD870"
+			rewards: [{
+				id: "342F7978AC246185"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0BDA5802571BADA9"
+				item: "alexsmobs:leafcutter_ant_pupa"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7E6468F38A587264"]
+			description: ["{litv3.alexs_mobs.description55}"]
+			id: "6C244C409D094052"
+			rewards: [{
+				count: 5
+				id: "6D6723F46A073E05"
+				item: "alexsmobs:gongylidia"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F3CAE2209A529AA"
+				item: "alexsmobs:gongylidia"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0433861EE023060D"]
+			description: ["{litv3.alexs_mobs.description56}"]
+			id: "7FB236F280E77256"
+			rewards: [{
+				id: "34905C384E6907AD"
+				item: "aquaculture:box"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C5C6F871671B792"
+				item: "alexsmobs:falconry_glove"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7FB236F280E77256"]
+			description: ["{litv3.alexs_mobs.description57}"]
+			id: "2BA83FDF7240DE8B"
+			rewards: [{
+				id: "5E48C1E1EAD16A14"
+				item: "aquaculture:box"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C040D4468053D5C"
+				item: "alexsmobs:falconry_hood"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -8.0d
+		}
+		{
+			description: [
+				"{litv3.alexs_mobs.description58}"
+				""
+				"{litv3.alexs_mobs.description59}"
+			]
+			id: "4E20E64264B2AA55"
+			rewards: [
+				{
+					id: "392508A9633EF701"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "06ECDBF446334306"
+					item: "minecraft:honeycomb"
+					type: "item"
+				}
+				{
+					id: "43D6B59710139384"
+					item: "minecraft:salmon"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/grizzly_bear"
+				criterion: ""
+				id: "2CDF8914DBF19EC1"
+				title: "{litv3.alexs_mobs.title0}"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4E20E64264B2AA55"]
+			description: ["{litv3.alexs_mobs.description60}"]
+			id: "240F618AC1E292F7"
+			rewards: [{
+				id: "73E03281373E233B"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/tame_grizzly_bear"
+				criterion: ""
+				id: "57620075DD5F169C"
+				title: "{litv3.alexs_mobs.title1}"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1561DE019D318A18"]
+			description: ["{litv3.alexs_mobs.description61}"]
+			id: "792DBA9FA8A22FD5"
+			rewards: [{
+				id: "57D012BE4C75F766"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5842E473899E6454"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "alexsmobs:speed_iii"
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: -2.0d
+		}
+		{
+			description: ["{litv3.alexs_mobs.description62}"]
+			id: "4B89A8800535AB16"
+			rewards: [{
+				id: "15818836E32A1165"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/crocodile"
+				criterion: ""
+				id: "1CBE91AD76108762"
+				title: "{litv3.alexs_mobs.title2}"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			description: ["{litv3.alexs_mobs.description63}"]
+			id: "6964B640BF90A11C"
+			rewards: [
+				{
+					id: "743900948393C170"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "595FC400798D6DED"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/alligator_snapping_turtle"
+				criterion: ""
+				id: "76B42026258E100A"
+				title: "{litv3.alexs_mobs.title3}"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"{litv3.alexs_mobs.description64}"
+				""
+				"{litv3.alexs_mobs.description65}"
+			]
+			id: "68585BA9EB6949FD"
+			rewards: [{
+				id: "6EDB80CF6F6C27A0"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/breed_hummingbird"
+				criterion: ""
+				id: "3EBF1EF204B6F41B"
+				title: "{litv3.alexs_mobs.title4}"
+				type: "advancement"
+			}]
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			description: [
+				"{litv3.alexs_mobs.description66}"
+				""
+				"{litv3.alexs_mobs.description67}"
+			]
+			id: "58BC291643685897"
+			rewards: [
+				{
+					id: "6FC9300FEF389D61"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "26133EE325795F06"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/orcas_might"
+				criterion: ""
+				id: "1E88FF99723FF9F5"
+				title: "{litv3.alexs_mobs.title5}"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"{litv3.alexs_mobs.description68}"
+				""
+				"{litv3.alexs_mobs.description69}"
+			]
+			id: "46E970252CE65795"
+			rewards: [{
+				id: "31C02B3F84B68C25"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/sunbird_blessing"
+				criterion: ""
+				id: "21284B920BF52531"
+				title: "{litv3.alexs_mobs.title6}"
+				type: "advancement"
+			}]
+			x: -4.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2CF3F2F094B0D3B1"]
+			description: [
+				"{litv3.alexs_mobs.description70}"
+				""
+				"{litv3.alexs_mobs.description71}"
+			]
+			id: "49474262BB1DD1F1"
+			rewards: [{
+				id: "5C48D2813A425EAF"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/tame_gorilla"
+				criterion: ""
+				id: "5B394498182F2EA9"
+				title: "{litv3.alexs_mobs.title7}"
+				type: "advancement"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2CF3F2F094B0D3B1"]
+			description: [
+				"{litv3.alexs_mobs.description72}"
+				""
+				"{litv3.alexs_mobs.description73}"
+				"{litv3.alexs_mobs.description74}"
+			]
+			id: "76291B63F0ED9022"
+			rewards: [{
+				id: "40C6CE211C59FD35"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/tame_capuchin"
+				criterion: ""
+				id: "515F2AE9A1C47768"
+				title: "{litv3.alexs_mobs.title8}"
+				type: "advancement"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			description: ["{litv3.alexs_mobs.description75}"]
+			id: "295FFF98AC0C3FB2"
+			rewards: [
+				{
+					id: "613720ADBE74AA81"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3CCB4D14DAFB72F0"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/rattlesnake"
+				criterion: ""
+				id: "5ED6AA67B994CB19"
+				title: "{litv3.alexs_mobs.title9}"
+				type: "advancement"
+			}]
+			x: -13.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"679FB7E7C654385F"
+				"3B5935EFBF9C27D7"
+			]
+			description: ["{litv3.alexs_mobs.description76}"]
+			id: "0E7A15BD940ECF8E"
+			rewards: [{
+				id: "2AAFE2A5B5C9E176"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/la_cucaracha"
+				criterion: ""
+				id: "1139B235EB572777"
+				title: "{litv3.alexs_mobs.title10}"
+				type: "advancement"
+			}]
+			x: -13.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["568B1FDB06169851"]
+			description: [
+				"{litv3.alexs_mobs.description77}"
+				""
+				"{litv3.alexs_mobs.description78}"
+			]
+			id: "2FF82B88371F5F07"
+			rewards: [{
+				count: 4
+				id: "7CD84B3A95C81ACC"
+				item: "alexsmobs:acacia_blossom"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/tame_elephant"
+				criterion: ""
+				id: "152BF44EB964BD44"
+				title: "{litv3.alexs_mobs.title11}"
+				type: "advancement"
+			}]
+			x: -9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2FF82B88371F5F07"]
+			description: [
+				"{litv3.alexs_mobs.description79}"
+				""
+				"{litv3.alexs_mobs.description80}"
+			]
+			id: "24285EBFC92AD6C5"
+			rewards: [{
+				id: "10AB456B8E4D68C3"
+				item: "aquaculture:box"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/tame_elephant_tusked"
+				criterion: ""
+				id: "0DD7CF75490E294D"
+				title: "{litv3.alexs_mobs.title12}"
+				type: "advancement"
+			}]
+			x: -11.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2FF82B88371F5F07"]
+			description: [
+				"{litv3.alexs_mobs.description81}"
+				""
+				"{litv3.alexs_mobs.description82}"
+			]
+			id: "4718CFDE2B4A98EB"
+			rewards: [{
+				id: "7957B6564EDC7FAF"
+				item: "aquaculture:box"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/elephant_swag"
+				criterion: ""
+				id: "44DF9DD4AE95E8DD"
+				title: "{litv3.alexs_mobs.title13}"
+				type: "advancement"
+			}]
+			x: -11.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"{litv3.alexs_mobs.description83}"
+				""
+				"{litv3.alexs_mobs.description84}"
+			]
+			id: "1404B0021D22163E"
+			rewards: [{
+				id: "1D0707B97CF39192"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/tame_mantis_shrimp"
+				criterion: ""
+				id: "7DCC80D0F958A866"
+				title: "{litv3.alexs_mobs.title14}"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1404B0021D22163E"]
+			description: ["{litv3.alexs_mobs.description85}"]
+			id: "7E59CB5BD918ED99"
+			rewards: [{
+				id: "4E56FF11EE680F8E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/mantis_shrimp_bucket"
+				criterion: ""
+				id: "1B8A368CA6453177"
+				title: "{litv3.alexs_mobs.title15}"
+				type: "advancement"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"{litv3.alexs_mobs.title16}"
+				""
+				"{litv3.alexs_mobs.description87}"
+			]
+			id: "586FB5B01BB6C341"
+			rewards: [
+				{
+					id: "5B537F5BB867D04F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6B17E74C11F56F83"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/guster"
+				criterion: ""
+				id: "6F62F95DCC74816E"
+				title: "{litv3.alexs_mobs.description86}"
+				type: "advancement"
+			}]
+			x: -11.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"{litv3.alexs_mobs.description88}"
+				""
+				"{litv3.alexs_mobs.description89}"
+			]
+			id: "0433861EE023060D"
+			rewards: [{
+				id: "14BE0A6962881D42"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/tame_bald_eagle"
+				criterion: ""
+				id: "60979777BE765F46"
+				title: "{litv3.alexs_mobs.title17}"
+				type: "advancement"
+			}]
+			x: -8.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2BA83FDF7240DE8B"]
+			description: ["{litv3.alexs_mobs.description90}"]
+			id: "2FABD2A54A4B0A4E"
+			rewards: [{
+				id: "56174A818AE04622"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/bald_eagle_challenge"
+				criterion: ""
+				id: "0DC163D693E32FA0"
+				title: "{litv3.alexs_mobs.title18}"
+				type: "advancement"
+			}]
+			x: -7.0d
+			y: -8.0d
+		}
+		{
+			description: [
+				"{litv3.alexs_mobs.description91}"
+				""
+				"{litv3.alexs_mobs.description92}"
+			]
+			id: "6B7F9A97D3149745"
+			rewards: [{
+				id: "5967750A2011C0BB"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/tigers_blessing"
+				criterion: ""
+				id: "47E2205644777034"
+				title: "{litv3.alexs_mobs.title19}"
+				type: "advancement"
+			}]
+			x: -6.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"{litv3.alexs_mobs.description93}"
+				""
+				"{litv3.alexs_mobs.description94}"
+			]
+			id: "7E6468F38A587264"
+			rewards: [{
+				id: "5E47A36797E501F1"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/stomp_leafcutter_anthill"
+				criterion: ""
+				id: "300156AB96F3BDE6"
+				title: "{litv3.alexs_mobs.title20}"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			description: [
+				"{litv3.alexs_mobs.description95}"
+				""
+				"{litv3.alexs_mobs.description96}"
+			]
+			id: "6941D667244F04D9"
+			rewards: [
+				{
+					id: "5A0479B4BC8A8A61"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "74D352B27610BD8B"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/kangaroo"
+				criterion: ""
+				id: "681C7849CB7DF7F8"
+				title: "{litv3.alexs_mobs.title21}"
+				type: "advancement"
+			}]
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"{litv3.alexs_mobs.description97}"
+				""
+				"{litv3.alexs_mobs.description98}"
+			]
+			id: "051CA3BEF47E6BCF"
+			rewards: [{
+				id: "1C791AFC6001ADDD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/emu"
+				criterion: ""
+				id: "2FC20090FF5FDCC1"
+				title: "{litv3.alexs_mobs.title22}"
+				type: "advancement"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			description: ["{litv3.alexs_mobs.description99}"]
+			id: "292B32B34CD5094A"
+			rewards: [
+				{
+					id: "19BC2A4D6A557ADD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6AF26E3E6A7FD230"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/soul_vulture"
+				criterion: ""
+				id: "021CDEE7CA77D77C"
+				title: "{litv3.alexs_mobs.title23}"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3E83CFACFBDFDEB2"]
+			description: [
+				"{litv3.alexs_mobs.description100}"
+				""
+				"{litv3.alexs_mobs.description101}"
+			]
+			id: "425A42A957D7D70B"
+			rewards: [
+				{
+					id: "70D68A037AA12A07"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "700322E794276237"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/spectre"
+				criterion: ""
+				id: "2B197BD81934156E"
+				title: "{litv3.alexs_mobs.title24}"
+				type: "advancement"
+			}]
+			x: 5.5d
+			y: 8.0d
+		}
+		{
+			description: [
+				"{litv3.alexs_mobs.description102}"
+				""
+				"{litv3.alexs_mobs.description103}"
+			]
+			id: "4EDC8D006049F8E4"
+			rewards: [
+				{
+					id: "32E66281E6847474"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7ABF373ED43DE707"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/straddler"
+				criterion: ""
+				id: "00699EA6765B7B6C"
+				title: "{litv3.alexs_mobs.title25}"
+				type: "advancement"
+			}]
+			x: -11.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["13EDF3FD77403F25"]
+			description: ["{litv3.alexs_mobs.description104}"]
+			id: "649DAB5F8334BF09"
+			rewards: [{
+				id: "19326A9DC755907D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/stradpole_feed"
+				criterion: ""
+				id: "4A084078BEDF8074"
+				title: "{litv3.alexs_mobs.title26}"
+				type: "advancement"
+			}]
+			x: -8.0d
+			y: 6.5d
+		}
+		{
+			description: [
+				"{litv3.alexs_mobs.description105}"
+				"{litv3.alexs_mobs.description106}"
+			]
+			id: "434FB123BC8DEEDE"
+			rewards: [{
+				id: "238F36B03F86D58D"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/tame_warped_toad"
+				criterion: ""
+				id: "1131503C338F9EEB"
+				title: "{litv3.alexs_mobs.title27}"
+				type: "advancement"
+			}]
+			x: -6.5d
+			y: 6.5d
+		}
+		{
+			description: [
+				"{litv3.alexs_mobs.description107}"
+				""
+				"{litv3.alexs_mobs.description108}"
+			]
+			id: "47BE77D8F21BBDCC"
+			rewards: [{
+				id: "280866A69599F854"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/warped_mosco_kill"
+				criterion: ""
+				id: "23757EA29413C93A"
+				title: "{litv3.alexs_mobs.title28}"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			description: ["{litv3.alexs_mobs.description109}"]
+			icon: {
+				Count: 1b
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "alexsmobs:seal"
+				}
+			}
+			id: "5A0A76BD018B4C93"
+			rewards: [{
+				id: "621DD7E6E8D3606C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:spawn_egg_seal"
+				}
+				id: "2CC93480B5927DA9"
+				observe_type: 5
+				timer: 0L
+				title: "{litv3.alexs_mobs.title29}"
+				to_observe: "alexsmobs:seal"
+				type: "observation"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			description: ["{litv3.alexs_mobs.description110}"]
+			icon: {
+				Count: 1b
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "alexsmobs:shoebill"
+				}
+			}
+			id: "249C1132B4C26334"
+			rewards: [{
+				id: "78754F8B4C96B3FE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:spawn_egg_shoebill"
+				}
+				id: "1C1987E5C7055D6B"
+				observe_type: 5
+				timer: 0L
+				title: "{litv3.alexs_mobs.title30}"
+				to_observe: "alexsmobs:shoebill"
+				type: "observation"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			description: ["{litv3.alexs_mobs.description111}"]
+			icon: {
+				Count: 1b
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "alexsmobs:snow_leopard"
+				}
+			}
+			id: "782985747FDE09EA"
+			rewards: [{
+				id: "4B5390A324FFA24A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:spawn_egg_snow_leopard"
+				}
+				id: "3674C17F4A219029"
+				observe_type: 5
+				timer: 0L
+				title: "{litv3.alexs_mobs.title31}"
+				to_observe: "alexsmobs:snow_leopard"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"{litv3.alexs_mobs.description112}"
+				"{litv3.alexs_mobs.description113}"
+			]
+			icon: {
+				Count: 1b
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "alexsmobs:crow"
+				}
+			}
+			id: "0AE3D19B46EFA9D1"
+			rewards: [{
+				id: "1282C934E5B760F1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:spawn_egg_crow"
+				}
+				id: "617A316883CEFD16"
+				observe_type: 5
+				timer: 0L
+				title: "{litv3.alexs_mobs.title32}"
+				to_observe: "alexsmobs:crow"
+				type: "observation"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			description: ["{litv3.alexs_mobs.description114}"]
+			icon: {
+				Count: 1b
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "alexsmobs:mungus"
+				}
+			}
+			id: "365AD0B3FADC70B1"
+			rewards: [
+				{
+					id: "57DE95FD347B41B7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "140E5195029175BE"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:spawn_egg_mungus"
+				}
+				id: "4A654648C41C79D9"
+				observe_type: 5
+				timer: 0L
+				title: "{litv3.alexs_mobs.title33}"
+				to_observe: "alexsmobs:mungus"
+				type: "observation"
+			}]
+			title: "{litv3.alexs_mobs.title34}"
+			x: -4.5d
+			y: 8.0d
+		}
+		{
+			description: [
+				"{litv3.alexs_mobs.description115}"
+				"{litv3.alexs_mobs.description116}"
+			]
+			icon: {
+				Count: 1b
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "alexsmobs:platypus"
+				}
+			}
+			id: "36086B5B081E1FE7"
+			rewards: [{
+				id: "7BCA9F8F78AB1428"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:spawn_egg_platypus"
+				}
+				id: "7A86119EE7CA0E32"
+				observe_type: 5
+				timer: 0L
+				title: "{litv3.alexs_mobs.title35}"
+				to_observe: "alexsmobs:platypus"
+				type: "observation"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			description: ["{litv3.alexs_mobs.description117}"]
+			icon: {
+				Count: 1b
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "alexsmobs:tasmanian_devil"
+				}
+			}
+			id: "44E83C7E2B80B35F"
+			rewards: [
+				{
+					id: "61721ACBF1603562"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "16C942AE5624DD6E"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:spawn_egg_tasmanian_devil"
+				}
+				id: "7718FF131B0BF706"
+				observe_type: 5
+				timer: 0L
+				title: "{litv3.alexs_mobs.title36}"
+				to_observe: "alexsmobs:tasmanian_devil"
+				type: "observation"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			description: ["{litv3.alexs_mobs.description118}"]
+			icon: {
+				Count: 1b
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "alexsmobs:raccoon"
+				}
+			}
+			id: "5AF05B20BB414210"
+			rewards: [{
+				id: "5C0FF384D71A826C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:spawn_egg_raccoon"
+				}
+				id: "49FC758D86668539"
+				observe_type: 5
+				timer: 0L
+				title: "{litv3.alexs_mobs.title37}"
+				to_observe: "alexsmobs:raccoon"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			description: ["{litv3.alexs_mobs.description119}"]
+			icon: {
+				Count: 1b
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "alexsmobs:gazelle"
+				}
+			}
+			id: "617FBFA90048602D"
+			rewards: [{
+				id: "535B1936F6BCB6D6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:spawn_egg_gazelle"
+				}
+				id: "40DBF5969ABB4E8F"
+				observe_type: 5
+				timer: 0L
+				title: "{litv3.alexs_mobs.title38}"
+				to_observe: "alexsmobs:gazelle"
+				type: "observation"
+			}]
+			x: -8.0d
+			y: -3.5d
+		}
+		{
+			description: ["{litv3.alexs_mobs.description120}"]
+			icon: {
+				Count: 1b
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "alexsmobs:fly"
+				}
+			}
+			id: "49AB71E75762D0B9"
+			rewards: [{
+				id: "2C6DFA122BB1BD9B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "3F5513E24A79A11D"
+				title: "{litv3.alexs_mobs.title39}"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"{litv3.alexs_mobs.description121}"
+				"{litv3.alexs_mobs.description122}"
+			]
+			icon: {
+				Count: 1b
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "alexsmobs:moose"
+				}
+			}
+			id: "3705153037F1DDEE"
+			rewards: [{
+				id: "79451D01310FF620"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:spawn_egg_moose"
+				}
+				id: "6033D9052F201CE6"
+				observe_type: 5
+				timer: 0L
+				title: "{litv3.alexs_mobs.title40}"
+				to_observe: "alexsmobs:moose"
+				type: "observation"
+			}]
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"{litv3.alexs_mobs.description123}"
+				"{litv3.alexs_mobs.description124}"
+			]
+			icon: {
+				Count: 1b
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "alexsmobs:komodo_dragon"
+				}
+			}
+			id: "6BC74F4BAEA808FF"
+			rewards: [
+				{
+					id: "2F797E77AFEA73A8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6006DD584125DFC0"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:spawn_egg_komodo_dragon"
+				}
+				id: "4B357D8812F881B3"
+				observe_type: 5
+				timer: 0L
+				title: "{litv3.alexs_mobs.title41}"
+				to_observe: "alexsmobs:komodo_dragon"
+				type: "observation"
+			}]
+			x: -15.0d
+			y: 0.5d
+		}
+		{
+			description: ["{litv3.alexs_mobs.description125}"]
+			icon: {
+				Count: 1b
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "alexsmobs:roadrunner"
+				}
+			}
+			id: "32F7D28F7B29709C"
+			rewards: [
+				{
+					id: "751F3F802322873E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "14E28B03D5A8184D"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:spawn_egg_roadrunner"
+				}
+				id: "04AD791F15719F0C"
+				observe_type: 5
+				timer: 0L
+				title: "{litv3.alexs_mobs.title42}"
+				to_observe: "alexsmobs:roadrunner"
+				type: "observation"
+			}]
+			x: -9.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"{litv3.alexs_mobs.description126}"
+				"{litv3.alexs_mobs.description127}"
+			]
+			icon: {
+				Count: 1b
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "alexsmobs:cockroach"
+				}
+			}
+			id: "3B5935EFBF9C27D7"
+			rewards: [{
+				id: "061AD01051C06419"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:spawn_egg_cockroach"
+				}
+				id: "47F5DCA1294B0DEB"
+				observe_type: 5
+				timer: 0L
+				title: "{litv3.alexs_mobs.title43}"
+				to_observe: "alexsmobs:cockroach"
+				type: "observation"
+			}]
+			x: -12.0d
+			y: 4.5d
+		}
+		{
+			description: ["{litv3.alexs_mobs.description128}"]
+			icon: {
+				Count: 1b
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "alexsmobs:lobster"
+				}
+			}
+			id: "493146EF96766BF4"
+			rewards: [{
+				id: "0D3AE27787779FE9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:spawn_egg_lobster"
+				}
+				id: "04232F2D49033D32"
+				observe_type: 5
+				timer: 0L
+				title: "{litv3.alexs_mobs.title44}"
+				to_observe: "alexsmobs:lobster"
+				type: "observation"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			description: ["{litv3.alexs_mobs.description129}"]
+			icon: {
+				Count: 1b
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "alexsmobs:hammerhead_shark"
+				}
+			}
+			id: "2C2D57D238A96C47"
+			rewards: [{
+				id: "20ECCF756CC54EDE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:spawn_egg_hammerhead_shark"
+				}
+				id: "32CBFE9471A8B5D5"
+				observe_type: 5
+				timer: 0L
+				title: "{litv3.alexs_mobs.title45}"
+				to_observe: "alexsmobs:hammerhead_shark"
+				type: "observation"
+			}]
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			description: ["{litv3.alexs_mobs.description130}"]
+			icon: {
+				Count: 1b
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "alexsmobs:bone_serpent"
+				}
+			}
+			id: "6C2B0968097E6A03"
+			rewards: [{
+				id: "0370ACA924ABCEFF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:spawn_egg_bone_serpent"
+				}
+				id: "20A07548BED44AD5"
+				observe_type: 5
+				timer: 0L
+				title: "{litv3.alexs_mobs.title46}"
+				to_observe: "alexsmobs:bone_serpent"
+				type: "observation"
+			}]
+			x: -10.0d
+			y: 9.5d
+		}
+		{
+			description: ["{litv3.alexs_mobs.description131}"]
+			icon: {
+				Count: 1b
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "alexsmobs:dropbear"
+				}
+			}
+			id: "0544039A394BA4C5"
+			rewards: [
+				{
+					id: "2B0A0D2830DC0523"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2C01C2F3FA6B9619"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3904F121483CB9A9"
+					title: "{litv3.alexs_mobs.title47}"
+					type: "checkmark"
+				}
+				{
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "alexsmobs:spawn_egg_dropbear"
+					}
+					id: "02FCD11BA9A44382"
+					observe_type: 5
+					timer: 0L
+					title: "{litv3.alexs_mobs.title48}"
+					to_observe: "alexsmobs:dropbear"
+					type: "observation"
+				}
+			]
+			x: -8.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["11AD9C3E6F7ED206"]
+			description: ["{litv3.alexs_mobs.description132}"]
+			id: "2655420D8A840C65"
+			rewards: [{
+				id: "1F36BF0D45D44C77"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7F6CA93CB8FA72D9"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "alexsmobs:knockback_resistance"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+	]
+	title: "{litv3.alexs_mobs.title49}"
+}

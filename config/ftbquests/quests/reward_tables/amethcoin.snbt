@@ -1,0 +1,10 @@
+{
+	id: "6D7FB71E9B3A1C42"
+	loot_size: 1
+	order_index: 23
+	rewards: [
+		{ count: 2, item: "kubejs:copper_coin" }
+		{ item: "kubejs:iron_coin" }
+	]
+	title: "艾美特币"
+}
